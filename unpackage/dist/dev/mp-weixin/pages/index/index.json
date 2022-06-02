@@ -2,6 +2,9 @@
   "navigationBarTitleText": "",
   "usingComponents": {
     "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
-    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
+    "recommend": "/components/Recommend/Recommend",
+    "songers": "/components/Songers/Songers",
+    "rank": "/components/Rank/Rank",
+    "search": "/components/Search/Search"
   }
 }

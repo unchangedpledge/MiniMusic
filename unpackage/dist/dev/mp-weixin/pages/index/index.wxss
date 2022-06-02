@@ -1,9 +1,31 @@
 
-.content {
+.mini-music {
+	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+.mini-music .header {
+	width: 100%;
+	font-size: 19px;
+}
+.mini-music .app-Head {
+	width: 100%;
+	height: 80rpx;
+	
+	text-align: center;
+}
+.mini-music .app-Head .app-name {
+	display: inline-block;
+	font-size: 19px;
+	margin-top: 8rpx;
+}
+.mini-music .app-Head .person{
+	position: absolute;
+	right: 20rpx;
+	margin-top: 8rpx;
 }
 .logo {
 	height: 200rpx;

@@ -3,7 +3,9 @@
 		<div class="header">
 			<div class="app-Head">
 				<span class="app-name">♪ MiniMusic ♪</span>
-				<span class="person">|||</span>
+				<span class="person">
+					<u-icon name="list" size="24"></u-icon>
+				</span>
 			</div>
 			<div class="tab">
 				<u-tabs

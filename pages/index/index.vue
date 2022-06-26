@@ -70,8 +70,8 @@
 			async handleTabs({index, ...item}) {
 				console.log('点击tab', item, index)
 				this.curTab = index
-				const res = await this.$request('/hiddenTroubles/getInfo')
-				console.log(res)
+				// const res = await this.$request('/hiddenTroubles/getInfo')
+				// console.log(res)
 			}
 		}
 	}

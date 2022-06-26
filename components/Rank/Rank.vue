@@ -54,7 +54,6 @@
 				this.show = true
 				// setTimeout(() => {
 				// 	this.isLoading  = false
-				// 	console.log('123')
 				// }, 2000)
 				this.showList = id
 				// list(id).then((res)=>{

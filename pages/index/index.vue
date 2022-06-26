@@ -3,7 +3,9 @@
 		<div class="header">
 			<div class="app-Head">
 				<span class="app-name">♪ MiniMusic ♪</span>
-				<span class="person">|||</span>
+				<span class="person">
+					<u-icon name="list" color="rgba(255,255,255,0.9)" size="24" @click="show = true"></u-icon>
+				</span>
 			</div>
 			<div class="tab">
 				<u-tabs
@@ -94,9 +96,11 @@
 	}
 	
 	.mini-music .app-Head {
+		margin-top: 40rpx;
 		width: 100%;
-		height: 80rpx;
+		height: 64rpx;
 		text-align: center;
+		/* color: #fff; */
 	}
 	
 	.mini-music .app-Head .app-name {
@@ -107,14 +111,15 @@
 	
 	.mini-music .app-Head .person{
 		position: absolute;
-		right: 20rpx;
+		left: 20rpx;
 		margin-top: 8rpx;
 	}
 	
 	.mini-music .content {
 		position: fixed;
 		width: 100%;
-		top: 80px;
+		top: 180rpx;
 		bottom: 0;
+		background-color: #fff;
 	}
 </style>

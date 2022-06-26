@@ -52,20 +52,7 @@
 		methods: {
 			handleToList(id) {
 				this.show = true
-				// setTimeout(() => {
-				// 	this.isLoading  = false
-				// }, 2000)
 				this.showList = id
-				// list(id).then((res)=>{
-				// 	console.log(res)
-				// 	if(res[1].data.code == '200'){
-				// 		this.playlist = res[1].data.playlist
-				// 		this.privileges = res[1].data.privileges
-				// 		this.isLoading = false
-				// 		console.log(this.playlist)
-				// 	}
-					
-				// })
 			},
 			backRank() {
 				this.show = false

@@ -8642,9 +8642,9 @@ function resolveLocaleChain(locale) {
 
 /***/ }),
 /* 5 */
-/*!****************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/pages.json ***!
-  \****************************************************************/
+/*!**********************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/pages.json ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8785,9 +8785,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 12 */
-/*!***********************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/index.js ***!
-  \***********************************************************************************/
+/*!*****************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/index.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8874,9 +8874,9 @@ var install = function install(Vue) {
 
 /***/ }),
 /* 13 */
-/*!**********************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/mixin/mixin.js ***!
-  \**********************************************************************************************/
+/*!****************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/mixin/mixin.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9043,9 +9043,9 @@ var install = function install(Vue) {
 
 /***/ }),
 /* 14 */
-/*!************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
-  \************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9058,9 +9058,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 15 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/luch-request/index.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/index.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9071,9 +9071,9 @@ _Request.default;exports.default = _default;
 
 /***/ }),
 /* 16 */
-/*!************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
-  \************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9279,9 +9279,9 @@ Request = /*#__PURE__*/function () {
 
 /***/ }),
 /* 17 */
-/*!********************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
-  \********************************************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9292,9 +9292,9 @@ function _default(config) {return (0, _index.default)(config);};exports.default 
 
 /***/ }),
 /* 18 */
-/*!**************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
-  \**************************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9400,9 +9400,9 @@ function _default(config) {return new Promise(function (resolve, reject) {
 
 /***/ }),
 /* 19 */
-/*!****************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
-  \****************************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9479,9 +9479,9 @@ function buildURL(url, params) {
 
 /***/ }),
 /* 20 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/luch-request/utils.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/utils.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9620,9 +9620,9 @@ function isUndefined(val) {
 
 /***/ }),
 /* 21 */
-/*!******************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
-  \******************************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9650,9 +9650,9 @@ function buildFullPath(baseURL, requestedURL) {
 
 /***/ }),
 /* 22 */
-/*!*********************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
-  \*********************************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9674,9 +9674,9 @@ function isAbsoluteURL(url) {
 
 /***/ }),
 /* 23 */
-/*!*******************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
-  \*******************************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9698,9 +9698,9 @@ function combineURLs(baseURL, relativeURL) {
 
 /***/ }),
 /* 24 */
-/*!***********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
-  \***********************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9724,9 +9724,9 @@ function settle(resolve, reject, response) {var
 
 /***/ }),
 /* 25 */
-/*!***********************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
-  \***********************************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9784,9 +9784,9 @@ InterceptorManager;exports.default = _default;
 
 /***/ }),
 /* 26 */
-/*!****************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
-  \****************************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9897,9 +9897,9 @@ function _default(globalsConfig) {var config2 = arguments.length > 1 && argument
 
 /***/ }),
 /* 27 */
-/*!*************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
-  \*************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9935,9 +9935,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 28 */
-/*!***********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
-  \***********************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10206,7 +10206,7 @@ var clone = function () {
 }();var _default =
 
 clone;exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../../../Hbuilder/HBuilderX/plugins/uniapp-cli/node_modules/buffer/index.js */ 29).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../HBuilderX.3.4.7.20220422/HBuilderX/plugins/uniapp-cli/node_modules/buffer/index.js */ 29).Buffer))
 
 /***/ }),
 /* 29 */
@@ -12283,17 +12283,17 @@ module.exports = Array.isArray || function (arr) {
 
 /***/ }),
 /* 33 */
-/*!*********************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/util/route.js ***!
-  \*********************************************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/util/route.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 34));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;} /**
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         * 路由跳转方法，该方法相对于直接使用uni.xxx的好处是使用更加简单快捷
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         * 并且带有路由拦截功能
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         */var
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    * 路由跳转方法，该方法相对于直接使用uni.xxx的好处是使用更加简单快捷
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    * 并且带有路由拦截功能
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    */var
 
 Router = /*#__PURE__*/function () {
   function Router() {_classCallCheck(this, Router);
@@ -13206,9 +13206,9 @@ if (hadRuntime) {
 
 /***/ }),
 /* 37 */
-/*!*********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/function/colorGradient.js ***!
-  \*********************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/colorGradient.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13349,9 +13349,9 @@ function colorToRgba(color, alpha) {
 
 /***/ }),
 /* 38 */
-/*!************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/function/test.js ***!
-  \************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/test.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13646,9 +13646,9 @@ function regExp(o) {
 
 /***/ }),
 /* 39 */
-/*!****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/function/debounce.js ***!
-  \****************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/debounce.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13685,9 +13685,9 @@ debounce;exports.default = _default;
 
 /***/ }),
 /* 40 */
-/*!****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/function/throttle.js ***!
-  \****************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/throttle.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13725,9 +13725,9 @@ throttle;exports.default = _default;
 
 /***/ }),
 /* 41 */
-/*!*************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/function/index.js ***!
-  \*************************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/index.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14440,9 +14440,9 @@ function setConfig(_ref3)
 
 /***/ }),
 /* 42 */
-/*!*************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/function/digit.js ***!
-  \*************************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/digit.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14615,9 +14615,9 @@ function enableBoundaryChecking() {var flag = arguments.length > 0 && arguments[
 
 /***/ }),
 /* 43 */
-/*!************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/config.js ***!
-  \************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/config.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14658,9 +14658,9 @@ if (true) {
 
 /***/ }),
 /* 44 */
-/*!***********************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props.js ***!
-  \***********************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14857,9 +14857,9 @@ _upload.default);exports.default = _default;
 
 /***/ }),
 /* 45 */
-/*!***********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
-  \***********************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14890,9 +14890,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 46 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/album.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/album.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14923,9 +14923,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 47 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/alert.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/alert.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14953,9 +14953,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 48 */
-/*!******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/avatar.js ***!
-  \******************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/avatar.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14989,9 +14989,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 49 */
-/*!***********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
-  \***********************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15020,9 +15020,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 50 */
-/*!*******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/backtop.js ***!
-  \*******************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/backtop.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15054,9 +15054,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 51 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/badge.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/badge.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15089,9 +15089,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 52 */
-/*!******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/button.js ***!
-  \******************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/button.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15139,9 +15139,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 53 */
-/*!********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/calendar.js ***!
-  \********************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/calendar.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15189,9 +15189,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 54 */
-/*!***********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
-  \***********************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15212,9 +15212,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 55 */
-/*!****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/cell.js ***!
-  \****************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/cell.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15255,9 +15255,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 56 */
-/*!*********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
-  \*********************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15280,9 +15280,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 57 */
-/*!********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
-  \********************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15315,9 +15315,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 58 */
-/*!*************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
-  \*************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15352,9 +15352,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 59 */
-/*!**************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
-  \**************************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15375,9 +15375,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 60 */
-/*!****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/code.js ***!
-  \****************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/code.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15404,9 +15404,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 61 */
-/*!*********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
-  \*********************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15440,9 +15440,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 62 */
-/*!***************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/col.js ***!
-  \***************************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/col.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15467,9 +15467,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 63 */
-/*!********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/collapse.js ***!
-  \********************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/collapse.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15492,9 +15492,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 64 */
-/*!************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
-  \************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15525,9 +15525,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 65 */
-/*!************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
-  \************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15557,9 +15557,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 66 */
-/*!*********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/countDown.js ***!
-  \*********************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/countDown.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15583,9 +15583,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 67 */
-/*!*******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/countTo.js ***!
-  \*******************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/countTo.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15616,9 +15616,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 68 */
-/*!**************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
-  \**************************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15660,9 +15660,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 69 */
-/*!*******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/divider.js ***!
-  \*******************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/divider.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15690,9 +15690,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 70 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/empty.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/empty.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15723,9 +15723,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 71 */
-/*!****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/form.js ***!
-  \****************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/form.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15753,9 +15753,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 72 */
-/*!********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/formItem.js ***!
-  \********************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/formItem.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15783,9 +15783,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 73 */
-/*!***************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/gap.js ***!
-  \***************************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/gap.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15810,9 +15810,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 74 */
-/*!****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/grid.js ***!
-  \****************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/grid.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15835,9 +15835,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 75 */
-/*!********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
-  \********************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15859,9 +15859,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 76 */
-/*!****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/icon.js ***!
-  \****************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/icon.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15903,9 +15903,9 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
 
 /***/ }),
 /* 77 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/image.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/image.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15941,9 +15941,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 78 */
-/*!***********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
-  \***********************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15968,9 +15968,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 79 */
-/*!*********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/indexList.js ***!
-  \*********************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/indexList.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15995,9 +15995,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 80 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/input.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/input.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16051,9 +16051,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 81 */
-/*!********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
-  \********************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16089,9 +16089,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 82 */
-/*!****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/line.js ***!
-  \****************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/line.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16117,9 +16117,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 83 */
-/*!************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
-  \************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16144,9 +16144,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 84 */
-/*!****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/link.js ***!
-  \****************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/link.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16178,9 +16178,9 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
 
 /***/ }),
 /* 85 */
-/*!****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/list.js ***!
-  \****************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/list.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16214,9 +16214,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 86 */
-/*!********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/listItem.js ***!
-  \********************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/listItem.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16237,9 +16237,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 87 */
-/*!***********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
-  \***********************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16275,9 +16275,9 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
 
 /***/ }),
 /* 88 */
-/*!***********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
-  \***********************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16305,9 +16305,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 89 */
-/*!********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
-  \********************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16342,9 +16342,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 90 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/modal.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/modal.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16380,9 +16380,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 91 */
-/*!******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/navbar.js ***!
-  \******************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/navbar.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16419,9 +16419,9 @@ var _color = _interopRequireDefault(__webpack_require__(/*! ../color */ 92));fun
 
 /***/ }),
 /* 92 */
-/*!***********************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/color.js ***!
-  \***********************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/color.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16446,9 +16446,9 @@ color;exports.default = _default;
 
 /***/ }),
 /* 93 */
-/*!*********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
-  \*********************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16471,9 +16471,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 94 */
-/*!*********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
-  \*********************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16506,9 +16506,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 95 */
-/*!******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/notify.js ***!
-  \******************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/notify.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16536,9 +16536,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 96 */
-/*!*********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
-  \*********************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16579,9 +16579,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 97 */
-/*!**************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
-  \**************************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16604,9 +16604,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 98 */
-/*!*******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/overlay.js ***!
-  \*******************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/overlay.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16630,9 +16630,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 99 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/parse.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/parse.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16660,9 +16660,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 100 */
-/*!******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/picker.js ***!
-  \******************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/picker.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16698,9 +16698,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 101 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/popup.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/popup.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16735,9 +16735,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 102 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/radio.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/radio.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16770,9 +16770,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 103 */
-/*!**********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
-  \**********************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16808,9 +16808,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 104 */
-/*!****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/rate.js ***!
-  \****************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/rate.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16842,9 +16842,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 105 */
-/*!********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/readMore.js ***!
-  \********************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/readMore.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16872,9 +16872,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 106 */
-/*!***************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/row.js ***!
-  \***************************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/row.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16897,9 +16897,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 107 */
-/*!*********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
-  \*********************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16926,9 +16926,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 108 */
-/*!**********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
-  \**********************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16954,9 +16954,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 109 */
-/*!******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/search.js ***!
-  \******************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/search.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16999,9 +16999,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 110 */
-/*!*******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/section.js ***!
-  \*******************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/section.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17031,9 +17031,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 111 */
-/*!********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
-  \********************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17064,9 +17064,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 112 */
-/*!******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/slider.js ***!
-  \******************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/slider.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17097,9 +17097,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 113 */
-/*!*********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
-  \*********************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17120,9 +17120,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 114 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/steps.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/steps.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17149,9 +17149,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 115 */
-/*!*********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
-  \*********************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17175,9 +17175,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 116 */
-/*!******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/sticky.js ***!
-  \******************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/sticky.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17203,9 +17203,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 117 */
-/*!**********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/subsection.js ***!
-  \**********************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/subsection.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17234,9 +17234,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 118 */
-/*!***********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
-  \***********************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17257,9 +17257,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 119 */
-/*!***************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
-  \***************************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17286,9 +17286,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 120 */
-/*!******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/swiper.js ***!
-  \******************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/swiper.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17332,9 +17332,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 121 */
-/*!****************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
-  \****************************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17359,9 +17359,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 122 */
-/*!******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/switch.js ***!
-  \******************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/switch.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17391,9 +17391,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 123 */
-/*!******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
-  \******************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17421,9 +17421,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 124 */
-/*!**********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
-  \**********************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17449,9 +17449,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 125 */
-/*!****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/tabs.js ***!
-  \****************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tabs.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17489,9 +17489,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 126 */
-/*!***************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/tag.js ***!
-  \***************************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tag.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17526,9 +17526,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 127 */
-/*!****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/text.js ***!
-  \****************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/text.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17571,9 +17571,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 128 */
-/*!********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/textarea.js ***!
-  \********************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/textarea.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17615,9 +17615,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 129 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/toast.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/toast.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17652,9 +17652,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 130 */
-/*!*******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
-  \*******************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17680,9 +17680,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 131 */
-/*!*******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
-  \*******************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17713,9 +17713,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 132 */
-/*!**********************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/transition.js ***!
-  \**********************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/transition.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17739,9 +17739,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 133 */
-/*!******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/props/upload.js ***!
-  \******************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/upload.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17783,9 +17783,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 134 */
-/*!************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/config/zIndex.js ***!
-  \************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/zIndex.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17812,9 +17812,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 135 */
-/*!****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/libs/function/platform.js ***!
-  \****************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/platform.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17897,9 +17897,9 @@ platform;exports.default = _default;
 
 /***/ }),
 /* 136 */
-/*!******************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/utils/api.js ***!
-  \******************************************************************/
+/*!************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/utils/api.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17946,9 +17946,9 @@ module.exports = request;
 /* 148 */,
 /* 149 */,
 /* 150 */
-/*!*****************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/components/u-tabs/props.js ***!
-  \*****************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-tabs/props.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18045,9 +18045,9 @@ module.exports = request;
 /* 176 */,
 /* 177 */,
 /* 178 */
-/*!******************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/components/u-badge/props.js ***!
-  \******************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-badge/props.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18122,6 +18122,60 @@ module.exports = request;
       type: Boolean,
       default: uni.$u.props.badge.absolute } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 179 */,
+/* 180 */,
+/* 181 */,
+/* 182 */,
+/* 183 */,
+/* 184 */,
+/* 185 */,
+/* 186 */,
+/* 187 */,
+/* 188 */
+/*!*************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/common/api.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.topList = topList;var _config = __webpack_require__(/*! ./config.js */ 189);
+
+function topList() {// 排行榜
+  var listIds = ['3', '0', '2', '1'];
+  return new Promise(function (reslove, reject) {
+    uni.request({
+      url: "http://localhost:3000/toplist/detail",
+      method: 'GET',
+      data: {},
+      success: function success(res) {
+        var result = res.data.list;
+        result.length = 4;
+        for (var i = 0; i < listIds.length; i++) {
+          result[i].listId = listIds[i];
+        }
+        reslove(result);
+      },
+      fail: function fail() {},
+      complete: function complete() {} });
+
+  });
+
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 189 */
+/*!****************************************************!*\
+  !*** D:/Desktop/课设三/最终/MiniMusic/common/config.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.baseUrl = void 0;var baseUrl = 'http://localhost:8000';exports.baseUrl = baseUrl;
 
 /***/ })
 ]]);

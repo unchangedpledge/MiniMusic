@@ -21,3 +21,10 @@ export function topList() { // 排行榜
 	})
 	
 }
+
+export function singerList(type) { // 歌手列表
+	return uni.request({
+		url: `${baseUrl}/singers?type=${type}`,
+		method: 'GET',
+	})
+}

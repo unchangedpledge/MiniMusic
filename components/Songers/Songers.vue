@@ -1,5 +1,6 @@
 <template>
 	<view class="singer-content">
+		<span class="iconfont icon-fenxiang"></span>
 		<view scroll-y="true" class="singer-scroll">
 			<view class="singer-top">
 				<view class="category-country">

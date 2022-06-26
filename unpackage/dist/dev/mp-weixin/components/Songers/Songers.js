@@ -92,7 +92,7 @@ try {
       return Promise.all(/*! import() | uni_modules/uview-ui/components/u-avatar/u-avatar */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-avatar/u-avatar")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-avatar/u-avatar.vue */ 220))
     },
     List: function() {
-      return __webpack_require__.e(/*! import() | components/List/List */ "components/List/List").then(__webpack_require__.bind(null, /*! @/components/List/List.vue */ 228))
+      return Promise.all(/*! import() | components/List/List */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/List/List")]).then(__webpack_require__.bind(null, /*! @/components/List/List.vue */ 228))
     }
   }
 } catch (e) {
@@ -150,7 +150,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 34));
-
 
 
 

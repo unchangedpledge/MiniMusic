@@ -11,7 +11,7 @@
 				></u-swiper>
 			</view>
 			<view class="recommend-list">
-				<h1 class="list-title">热门歌单推荐</h1>
+				<h1 :class="'list-title ' + theme">热门歌单推荐</h1>
 				<view class="list-content">
 					<u-grid
 						:border="false"
@@ -34,7 +34,7 @@
 				</view>
 			</view>
 			<view class="recommend-list">
-				<h1 class="list-title">精品歌单推荐</h1>
+				<h1 :class="'list-title ' + theme">精品歌单推荐</h1>
 				<view class="list-content">
 					<u-grid
 						:border="false"
@@ -62,6 +62,7 @@
 </template>
 
 <script>
+	import {mapState} from 'vuex'
 	export default {
 		name:"Recommend",
 		data() {
@@ -103,7 +104,10 @@
 					},
 				]
 			};
-		}
+		},
+		computed: {
+			...mapState(['theme'])
+		},
 	}
 </script>
 

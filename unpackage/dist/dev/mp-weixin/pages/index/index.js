@@ -113,9 +113,6 @@ try {
     Search: function() {
       return __webpack_require__.e(/*! import() | components/Search/Search */ "components/Search/Search").then(__webpack_require__.bind(null, /*! @/components/Search/Search.vue */ 185))
     },
-    ChangeSkin: function() {
-      return __webpack_require__.e(/*! import() | components/ChangeSkin/ChangeSkin */ "components/ChangeSkin/ChangeSkin").then(__webpack_require__.bind(null, /*! @/components/ChangeSkin/ChangeSkin.vue */ 399))
-    },
     uPopup: function() {
       return Promise.all(/*! import() | uni_modules/uview-ui/components/u-popup/u-popup */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-popup/u-popup")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-popup/u-popup.vue */ 190))
     },

@@ -80,7 +80,7 @@ var components
 try {
   components = {
     List: function() {
-      return __webpack_require__.e(/*! import() | components/List/List */ "components/List/List").then(__webpack_require__.bind(null, /*! @/components/List/List.vue */ 276))
+      return Promise.all(/*! import() | components/List/List */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/List/List")]).then(__webpack_require__.bind(null, /*! @/components/List/List.vue */ 276))
     }
   }
 } catch (e) {
@@ -176,7 +176,7 @@ var _api = __webpack_require__(/*! @/common/api.js */ 174); //
 //
 //
 //
-var List = function List() {__webpack_require__.e(/*! require.ensure | components/List/List */ "components/List/List").then((function () {return resolve(__webpack_require__(/*! @/components/List/List.vue */ 276));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { name: "Rank", data: function data() {return { topList: [], show: false, playlist: { coverImgUrl: '', creator: { avatarUrl: '' }, trackCount: '', privileges: '' }, isLoading: false, showList: 0 };
+var List = function List() {Promise.all(/*! require.ensure | components/List/List */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/List/List")]).then((function () {return resolve(__webpack_require__(/*! @/components/List/List.vue */ 276));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { name: "Rank", data: function data() {return { topList: [], show: false, playlist: { coverImgUrl: '', creator: { avatarUrl: '' }, trackCount: '', privileges: '' }, isLoading: false, showList: 0 };
   },
   components: { List: List },
   mounted: function mounted() {var _this = this;

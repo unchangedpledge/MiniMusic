@@ -44,32 +44,46 @@
 	right: 0;
 	z-index: 1000;
 }
-
-/* .user-center {
-	animation: come .3s;
+.user-center {
+	-webkit-animation: come .3s;
+	        animation: come .3s;
 }
-
 .user-center.out {
-	animation: out .3s;
+	-webkit-animation: out .3s;
+	        animation: out .3s;
 }
-
+@-webkit-keyframes come {
+0% {
+		top: 100%;
+}
+100% {
+		top: 40rpx;
+}
+}
 @keyframes come {
-	0% {
+0% {
 		top: 100%;
-	}
-	100% {
-		top: 40rpx;
-	}
 }
-
-@keyframes out {
-	0% {
+100% {
 		top: 40rpx;
-	}
-	100% {
+}
+}
+@-webkit-keyframes out {
+0% {
+		top: 40rpx;
+}
+100% {
 		top: 100%;
-	}
-} */
+}
+}
+@keyframes out {
+0% {
+		top: 40rpx;
+}
+100% {
+		top: 100%;
+}
+}
 .drawer {
 	height: 100%;
 	padding: 30rpx;

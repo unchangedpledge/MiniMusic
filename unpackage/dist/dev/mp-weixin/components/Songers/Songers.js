@@ -92,7 +92,11 @@ try {
       return Promise.all(/*! import() | uni_modules/uview-ui/components/u-avatar/u-avatar */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-avatar/u-avatar")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-avatar/u-avatar.vue */ 268))
     },
     List: function() {
+<<<<<<< HEAD
       return Promise.all(/*! import() | components/List/List */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/List/List")]).then(__webpack_require__.bind(null, /*! @/components/List/List.vue */ 276))
+=======
+      return __webpack_require__.e(/*! import() | components/List/List */ "components/List/List").then(__webpack_require__.bind(null, /*! @/components/List/List.vue */ 276))
+>>>>>>> sk
     }
   }
 } catch (e) {

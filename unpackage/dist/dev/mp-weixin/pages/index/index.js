@@ -112,6 +112,18 @@ try {
     },
     Search: function() {
       return __webpack_require__.e(/*! import() | components/Search/Search */ "components/Search/Search").then(__webpack_require__.bind(null, /*! @/components/Search/Search.vue */ 185))
+    },
+    ChangeSkin: function() {
+      return __webpack_require__.e(/*! import() | components/ChangeSkin/ChangeSkin */ "components/ChangeSkin/ChangeSkin").then(__webpack_require__.bind(null, /*! @/components/ChangeSkin/ChangeSkin.vue */ 399))
+    },
+    uPopup: function() {
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-popup/u-popup */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-popup/u-popup")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-popup/u-popup.vue */ 190))
+    },
+    uCellGroup: function() {
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-cell-group/u-cell-group */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-cell-group/u-cell-group")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-cell-group/u-cell-group.vue */ 198))
+    },
+    uCell: function() {
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-cell/u-cell */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-cell/u-cell")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-cell/u-cell.vue */ 206))
     }
   }
 } catch (e) {
@@ -173,7 +185,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 34));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectWithoutProperties(source, excluded) {if (source == null) return {};var target = _objectWithoutPropertiesLoose(source, excluded);var key, i;if (Object.getOwnPropertySymbols) {var sourceSymbolKeys = Object.getOwnPropertySymbols(source);for (i = 0; i < sourceSymbolKeys.length; i++) {key = sourceSymbolKeys[i];if (excluded.indexOf(key) >= 0) continue;if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;target[key] = source[key];}}return target;}function _objectWithoutPropertiesLoose(source, excluded) {if (source == null) return {};var target = {};var sourceKeys = Object.keys(source);var key, i;for (i = 0; i < sourceKeys.length; i++) {key = sourceKeys[i];if (excluded.indexOf(key) >= 0) continue;target[key] = source[key];}return target;}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var Recommend = function Recommend() {__webpack_require__.e(/*! require.ensure | components/Recommend/Recommend */ "components/Recommend/Recommend").then((function () {return resolve(__webpack_require__(/*! @/components/Recommend/Recommend.vue */ 162));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var Songers = function Songers() {Promise.all(/*! require.ensure | components/Songers/Songers */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/Songers/Songers")]).then((function () {return resolve(__webpack_require__(/*! @/components/Songers/Songers.vue */ 169));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var Rank = function Rank() {Promise.all(/*! require.ensure | components/Rank/Rank */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/Rank/Rank")]).then((function () {return resolve(__webpack_require__(/*! @/components/Rank/Rank.vue */ 178));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var Search = function Search() {__webpack_require__.e(/*! require.ensure | components/Search/Search */ "components/Search/Search").then((function () {return resolve(__webpack_require__(/*! @/components/Search/Search.vue */ 185));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
 
 
 
@@ -219,6 +231,38 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _vuex = __webpack_require__(/*! vuex */ 398);function _objectWithoutProperties(source, excluded) {if (source == null) return {};var target = _objectWithoutPropertiesLoose(source, excluded);var key, i;if (Object.getOwnPropertySymbols) {var sourceSymbolKeys = Object.getOwnPropertySymbols(source);for (i = 0; i < sourceSymbolKeys.length; i++) {key = sourceSymbolKeys[i];if (excluded.indexOf(key) >= 0) continue;if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;target[key] = source[key];}}return target;}function _objectWithoutPropertiesLoose(source, excluded) {if (source == null) return {};var target = {};var sourceKeys = Object.keys(source);var key, i;for (i = 0; i < sourceKeys.length; i++) {key = sourceKeys[i];if (excluded.indexOf(key) >= 0) continue;target[key] = source[key];}return target;}function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var Recommend = function Recommend() {__webpack_require__.e(/*! require.ensure | components/Recommend/Recommend */ "components/Recommend/Recommend").then((function () {return resolve(__webpack_require__(/*! @/components/Recommend/Recommend.vue */ 162));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var Songers = function Songers() {Promise.all(/*! require.ensure | components/Songers/Songers */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/Songers/Songers")]).then((function () {return resolve(__webpack_require__(/*! @/components/Songers/Songers.vue */ 169));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var Rank = function Rank() {Promise.all(/*! require.ensure | components/Rank/Rank */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/Rank/Rank")]).then((function () {return resolve(__webpack_require__(/*! @/components/Rank/Rank.vue */ 178));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var Search = function Search() {__webpack_require__.e(/*! require.ensure | components/Search/Search */ "components/Search/Search").then((function () {return resolve(__webpack_require__(/*! @/components/Search/Search.vue */ 185));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 
@@ -236,20 +280,67 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
       {
         name: '搜索' }],
 
-      curTab: 0 };
+      personTabs: [{
+        name: 'love',
+        title: '收藏歌曲',
+        icon: 'heart' },
+      {
+        name: 'latest',
+        title: '最近播放',
+        icon: 'clock' },
+      {
+        name: 'skin',
+        title: '主题换肤',
+        icon: 'grid' }],
+
+      curTab: 0,
+      show: false };
 
   },
+  computed: _objectSpread({},
+  (0, _vuex.mapState)(['theme'])),
+
   components: { Recommend: Recommend, Songers: Songers, Rank: Rank, Search: Search },
-  onLoad: function onLoad() {
+  mounted: function mounted() {
+    console.log('测试1', this.theme);
+    console.log('测试2', this.theme);
 
   },
   methods: {
-    handleTabs: function handleTabs(_ref) {var _this = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var index, item;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:index = _ref.index, item = _objectWithoutProperties(_ref, ["index"]);
-                console.log('点击tab', item, index);
-                _this.curTab = index;
-                // const res = await this.$request('/hiddenTroubles/getInfo')
-                // console.log(res)
-              case 3:case "end":return _context.stop();}}}, _callee);}))();} } };exports.default = _default;
+    close: function close() {
+      this.show = false;
+    },
+    handleTabs: function handleTabs(_ref) {var index = _ref.index,item = _objectWithoutProperties(_ref, ["index"]);
+      console.log('点击tab', item, index, this);
+      this.curTab = index;
+      // const res = await this.$request('/hiddenTroubles/getInfo')
+      // console.log(res)
+    },
+    handlePersonTab: function handlePersonTab(item) {
+      if (item.name == 'skin') {// 点击换肤
+        this.come = this.curTab;
+        this.curTab = 5;
+        this.show = false;
+      } else {// 点击最近播放或点击收藏歌曲
+        this.active = item.name == 'love' ? 1 : 2;
+        this.come = this.curTab;
+        this.curTab = 4;
+        this.show = false;
+      }
+    },
+    skinBack: function skinBack() {
+      this.curTab = this.come;
+      this.come = 0;
+      console.log(this.theme);
+    },
+    back: function back() {var _this = this;
+      this.out = true;
+      setTimeout(function () {
+        _this.curTab = _this.come;
+        _this.come = 0;
+        _this.out = false;
+      }, 100);
+    } } };exports.default = _default;
 
 /***/ }),
 

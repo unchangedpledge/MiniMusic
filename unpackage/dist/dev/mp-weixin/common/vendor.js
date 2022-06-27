@@ -18424,82 +18424,127 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.baseUrl = 
 /* 187 */,
 /* 188 */,
 /* 189 */,
-/* 190 */
-/*!*************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/common/iconfont.css ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-    if(false) { var cssReload; }
-  
-
-/***/ }),
+/* 190 */,
 /* 191 */,
 /* 192 */,
 /* 193 */,
 /* 194 */,
-/* 195 */,
-/* 196 */,
-/* 197 */,
-/* 198 */
-/*!*************************************************************************************************************!*\
-  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/components/u-loading-page/props.js ***!
-  \*************************************************************************************************************/
+/* 195 */
+/*!******************************************************************************************************!*\
+  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/components/u-popup/props.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
   props: {
-    // 提示内容
-    loadingText: {
-      type: [String, Number],
-      default: uni.$u.props.loadingPage.loadingText },
-
-    // 文字上方用于替换loading动画的图片
-    image: {
-      type: String,
-      default: uni.$u.props.loadingPage.image },
-
-    // 加载动画的模式，circle-圆形，spinner-花朵形，semicircle-半圆形
-    loadingMode: {
-      type: String,
-      default: uni.$u.props.loadingPage.loadingMode },
-
-    // 是否加载中
-    loading: {
+    // 是否展示弹窗
+    show: {
       type: Boolean,
-      default: uni.$u.props.loadingPage.loading },
+      default: uni.$u.props.popup.show },
 
-    // 背景色
+    // 是否显示遮罩
+    overlay: {
+      type: Boolean,
+      default: uni.$u.props.popup.overlay },
+
+    // 弹出的方向，可选值为 top bottom right left center
+    mode: {
+      type: String,
+      default: uni.$u.props.popup.mode },
+
+    // 动画时长，单位ms
+    duration: {
+      type: [String, Number],
+      default: uni.$u.props.popup.duration },
+
+    // 是否显示关闭图标
+    closeable: {
+      type: Boolean,
+      default: uni.$u.props.popup.closeable },
+
+    // 自定义遮罩的样式
+    overlayStyle: {
+      type: [Object, String],
+      default: uni.$u.props.popup.overlayStyle },
+
+    // 点击遮罩是否关闭弹窗
+    closeOnClickOverlay: {
+      type: Boolean,
+      default: uni.$u.props.popup.closeOnClickOverlay },
+
+    // 层级
+    zIndex: {
+      type: [String, Number],
+      default: uni.$u.props.popup.zIndex },
+
+    // 是否为iPhoneX留出底部安全距离
+    safeAreaInsetBottom: {
+      type: Boolean,
+      default: uni.$u.props.popup.safeAreaInsetBottom },
+
+    // 是否留出顶部安全距离（状态栏高度）
+    safeAreaInsetTop: {
+      type: Boolean,
+      default: uni.$u.props.popup.safeAreaInsetTop },
+
+    // 自定义关闭图标位置，top-left为左上角，top-right为右上角，bottom-left为左下角，bottom-right为右下角
+    closeIconPos: {
+      type: String,
+      default: uni.$u.props.popup.closeIconPos },
+
+    // 是否显示圆角
+    round: {
+      type: [Boolean, String, Number],
+      default: uni.$u.props.popup.round },
+
+    // mode=center，也即中部弹出时，是否使用缩放模式
+    zoom: {
+      type: Boolean,
+      default: uni.$u.props.popup.zoom },
+
+    // 弹窗背景色，设置为transparent可去除白色背景
     bgColor: {
       type: String,
-      default: uni.$u.props.loadingPage.bgColor },
+      default: uni.$u.props.popup.bgColor },
 
-    // 文字颜色
-    color: {
-      type: String,
-      default: uni.$u.props.loadingPage.color },
-
-    // 文字大小
-    fontSize: {
-      type: [String, Number],
-      default: uni.$u.props.loadingPage.fontSize },
-
-    // 加载中图标的颜色，只能rgb或者十六进制颜色值
-    loadingColor: {
-      type: String,
-      default: uni.$u.props.loadingPage.loadingColor } } };exports.default = _default;
+    // 遮罩的透明度，0-1之间
+    overlayOpacity: {
+      type: [Number, String],
+      default: uni.$u.props.popup.overlayOpacity } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+/* 196 */,
+/* 197 */,
+/* 198 */,
 /* 199 */,
 /* 200 */,
 /* 201 */,
 /* 202 */,
-/* 203 */,
+/* 203 */
+/*!***********************************************************************************************************!*\
+  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/components/u-cell-group/props.js ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 分组标题
+    title: {
+      type: String,
+      default: uni.$u.props.cellGroup.title },
+
+    // 是否显示外边框
+    border: {
+      type: Boolean,
+      default: uni.$u.props.cellGroup.border } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
 /* 204 */,
 /* 205 */,
 /* 206 */,
@@ -18719,7 +18764,139 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.baseUrl = 
 /* 224 */,
 /* 225 */,
 /* 226 */,
-/* 227 */,
+/* 227 */
+/*!*******************************************************************************************************!*\
+  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/components/u-swiper/props.js ***!
+  \*******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 列表数组，元素可为字符串，如为对象可通过keyName指定目标属性名
+    list: {
+      type: Array,
+      default: uni.$u.props.swiper.list },
+
+    // 是否显示面板指示器
+    indicator: {
+      type: Boolean,
+      default: uni.$u.props.swiper.indicator },
+
+    // 指示器非激活颜色
+    indicatorActiveColor: {
+      type: String,
+      default: uni.$u.props.swiper.indicatorActiveColor },
+
+    // 指示器的激活颜色
+    indicatorInactiveColor: {
+      type: String,
+      default: uni.$u.props.swiper.indicatorInactiveColor },
+
+    // 指示器样式，可通过bottom，left，right进行定位
+    indicatorStyle: {
+      type: [String, Object],
+      default: uni.$u.props.swiper.indicatorStyle },
+
+    // 指示器模式，line-线型，dot-点型
+    indicatorMode: {
+      type: String,
+      default: uni.$u.props.swiper.indicatorMode },
+
+    // 是否自动切换
+    autoplay: {
+      type: Boolean,
+      default: uni.$u.props.swiper.autoplay },
+
+    // 当前所在滑块的 index
+    current: {
+      type: [String, Number],
+      default: uni.$u.props.swiper.current },
+
+    // 当前所在滑块的 item-id ，不能与 current 被同时指定
+    currentItemId: {
+      type: String,
+      default: uni.$u.props.swiper.currentItemId },
+
+    // 滑块自动切换时间间隔
+    interval: {
+      type: [String, Number],
+      default: uni.$u.props.swiper.interval },
+
+    // 滑块切换过程所需时间
+    duration: {
+      type: [String, Number],
+      default: uni.$u.props.swiper.duration },
+
+    // 播放到末尾后是否重新回到开头
+    circular: {
+      type: Boolean,
+      default: uni.$u.props.swiper.circular },
+
+    // 前边距，可用于露出前一项的一小部分，nvue和支付宝不支持
+    previousMargin: {
+      type: [String, Number],
+      default: uni.$u.props.swiper.previousMargin },
+
+    // 后边距，可用于露出后一项的一小部分，nvue和支付宝不支持
+    nextMargin: {
+      type: [String, Number],
+      default: uni.$u.props.swiper.nextMargin },
+
+    // 当开启时，会根据滑动速度，连续滑动多屏，支付宝不支持
+    acceleration: {
+      type: Boolean,
+      default: uni.$u.props.swiper.acceleration },
+
+    // 同时显示的滑块数量，nvue、支付宝小程序不支持
+    displayMultipleItems: {
+      type: Number,
+      default: uni.$u.props.swiper.displayMultipleItems },
+
+    // 指定swiper切换缓动动画类型，有效值：default、linear、easeInCubic、easeOutCubic、easeInOutCubic
+    // 只对微信小程序有效
+    easingFunction: {
+      type: String,
+      default: uni.$u.props.swiper.easingFunction },
+
+    // list数组中指定对象的目标属性名
+    keyName: {
+      type: String,
+      default: uni.$u.props.swiper.keyName },
+
+    // 图片的裁剪模式
+    imgMode: {
+      type: String,
+      default: uni.$u.props.swiper.imgMode },
+
+    // 组件高度
+    height: {
+      type: [String, Number],
+      default: uni.$u.props.swiper.height },
+
+    // 背景颜色
+    bgColor: {
+      type: String,
+      default: uni.$u.props.swiper.bgColor },
+
+    // 组件圆角，数值或带单位的字符串
+    radius: {
+      type: [String, Number],
+      default: uni.$u.props.swiper.radius },
+
+    // 是否加载中
+    loading: {
+      type: Boolean,
+      default: uni.$u.props.swiper.loading },
+
+    // 是否显示标题，要求数组对象中有title属性
+    showTitle: {
+      type: Boolean,
+      default: uni.$u.props.swiper.showTitle } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
 /* 228 */,
 /* 229 */,
 /* 230 */,
@@ -18727,7 +18904,33 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.baseUrl = 
 /* 232 */,
 /* 233 */,
 /* 234 */,
-/* 235 */,
+/* 235 */
+/*!*****************************************************************************************************!*\
+  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/components/u-grid/props.js ***!
+  \*****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 分成几列
+    col: {
+      type: [String, Number],
+      default: uni.$u.props.grid.col },
+
+    // 是否显示边框
+    border: {
+      type: Boolean,
+      default: uni.$u.props.grid.border },
+
+    // 宫格对齐方式，表现为数量少的时候，靠左，居中，还是靠右
+    align: {
+      type: String,
+      default: uni.$u.props.grid.align } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
 /* 236 */,
 /* 237 */,
 /* 238 */,
@@ -18735,7 +18938,28 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.baseUrl = 
 /* 240 */,
 /* 241 */,
 /* 242 */,
-/* 243 */,
+/* 243 */
+/*!**********************************************************************************************************!*\
+  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/components/u-grid-item/props.js ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 宫格的name
+    name: {
+      type: [String, Number, null],
+      default: uni.$u.props.gridItem.name },
+
+    // 背景颜色
+    bgColor: {
+      type: String,
+      default: uni.$u.props.gridItem.bgColor } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
 /* 244 */,
 /* 245 */,
 /* 246 */,
@@ -18743,7 +18967,98 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.baseUrl = 
 /* 248 */,
 /* 249 */,
 /* 250 */,
-/* 251 */,
+/* 251 */
+/*!******************************************************************************************************!*\
+  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/components/u-image/props.js ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 图片地址
+    src: {
+      type: String,
+      default: uni.$u.props.image.src },
+
+    // 裁剪模式
+    mode: {
+      type: String,
+      default: uni.$u.props.image.mode },
+
+    // 宽度，单位任意
+    width: {
+      type: [String, Number],
+      default: uni.$u.props.image.width },
+
+    // 高度，单位任意
+    height: {
+      type: [String, Number],
+      default: uni.$u.props.image.height },
+
+    // 图片形状，circle-圆形，square-方形
+    shape: {
+      type: String,
+      default: uni.$u.props.image.shape },
+
+    // 圆角，单位任意
+    radius: {
+      type: [String, Number],
+      default: uni.$u.props.image.radius },
+
+    // 是否懒加载，微信小程序、App、百度小程序、字节跳动小程序
+    lazyLoad: {
+      type: Boolean,
+      default: uni.$u.props.image.lazyLoad },
+
+    // 开启长按图片显示识别微信小程序码菜单
+    showMenuByLongpress: {
+      type: Boolean,
+      default: uni.$u.props.image.showMenuByLongpress },
+
+    // 加载中的图标，或者小图片
+    loadingIcon: {
+      type: String,
+      default: uni.$u.props.image.loadingIcon },
+
+    // 加载失败的图标，或者小图片
+    errorIcon: {
+      type: String,
+      default: uni.$u.props.image.errorIcon },
+
+    // 是否显示加载中的图标或者自定义的slot
+    showLoading: {
+      type: Boolean,
+      default: uni.$u.props.image.showLoading },
+
+    // 是否显示加载错误的图标或者自定义的slot
+    showError: {
+      type: Boolean,
+      default: uni.$u.props.image.showError },
+
+    // 是否需要淡入效果
+    fade: {
+      type: Boolean,
+      default: uni.$u.props.image.fade },
+
+    // 只支持网络资源，只对微信小程序有效
+    webp: {
+      type: Boolean,
+      default: uni.$u.props.image.webp },
+
+    // 过渡时间，单位ms
+    duration: {
+      type: [String, Number],
+      default: uni.$u.props.image.duration },
+
+    // 背景颜色，用于深色页面加载图片时，为了和背景色融合
+    bgColor: {
+      type: String,
+      default: uni.$u.props.image.bgColor } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
 /* 252 */,
 /* 253 */,
 /* 254 */,
@@ -18963,7 +19278,38 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.baseUrl = 
 /* 283 */,
 /* 284 */,
 /* 285 */,
-/* 286 */,
+/* 286 */
+/*!********************************************************************************************************!*\
+  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/components/u-overlay/props.js ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 是否显示遮罩
+    show: {
+      type: Boolean,
+      default: uni.$u.props.overlay.show },
+
+    // 层级z-index
+    zIndex: {
+      type: [String, Number],
+      default: uni.$u.props.overlay.zIndex },
+
+    // 遮罩的过渡时间，单位为ms
+    duration: {
+      type: [String, Number],
+      default: uni.$u.props.overlay.duration },
+
+    // 不透明度值，当做rgba的第四个参数
+    opacity: {
+      type: [String, Number],
+      default: uni.$u.props.overlay.opacity } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
 /* 287 */,
 /* 288 */,
 /* 289 */,
@@ -19251,7 +19597,22 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 301 */,
 /* 302 */,
 /* 303 */,
-/* 304 */,
+/* 304 */
+/*!***********************************************************************************************************!*\
+  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/components/u-status-bar/props.js ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    bgColor: {
+      type: String,
+      default: uni.$u.props.statusBar.bgColor } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
 /* 305 */,
 /* 306 */,
 /* 307 */,
@@ -19259,7 +19620,18 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 309 */,
 /* 310 */,
 /* 311 */,
-/* 312 */,
+/* 312 */
+/*!************************************************************************************************************!*\
+  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/components/u-safe-bottom/props.js ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {} };exports.default = _default;
+
+/***/ }),
 /* 313 */,
 /* 314 */,
 /* 315 */,
@@ -19389,7 +19761,43 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 333 */,
 /* 334 */,
 /* 335 */,
-/* 336 */,
+/* 336 */
+/*!*****************************************************************************************************************!*\
+  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/components/u-swiper-indicator/props.js ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 轮播的长度
+    length: {
+      type: [String, Number],
+      default: uni.$u.props.swiperIndicator.length },
+
+    // 当前处于活动状态的轮播的索引
+    current: {
+      type: [String, Number],
+      default: uni.$u.props.swiperIndicator.current },
+
+    // 指示器非激活颜色
+    indicatorActiveColor: {
+      type: String,
+      default: uni.$u.props.swiperIndicator.indicatorActiveColor },
+
+    // 指示器的激活颜色
+    indicatorInactiveColor: {
+      type: String,
+      default: uni.$u.props.swiperIndicator.indicatorInactiveColor },
+
+    // 指示器模式，line-线型，dot-点型
+    indicatorMode: {
+      type: String,
+      default: uni.$u.props.swiperIndicator.indicatorMode } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
 /* 337 */,
 /* 338 */,
 /* 339 */,
@@ -19758,7 +20166,54 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 394 */,
 /* 395 */,
 /* 396 */,
-/* 397 */,
+/* 397 */
+/*!*********************************************************************!*\
+  !*** E:/course_design_3/code/mini_music/mini_music/common/store.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));
+var _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ 398));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+_vue.default.use(_vuex.default);
+var store = new _vuex.default.Store({
+  // state中是需要管理的全局变量
+  state: {
+    theme: 'theme1'
+    // mini: false,
+    // songDetail: {
+    // 	pic: '',
+    // },
+    // playlist: [], // 播放列表
+    // curIndex: 0,
+  },
+  // mutations 是操作state中变量的方法
+  mutations: {
+    changeTheme: function changeTheme(state, newTheme) {
+      state.theme = 'theme' + newTheme;
+    }
+    // showMiniPlayer(state) {
+    // 	state.mini = true
+    // },
+    // setSongDetail(state, payload) {
+    // 	state.songDetail = payload
+    // },
+    // updatePlaylist(state, payload) { // 更新播放列表
+    // 	const loveList = uni.getStorageSync('loveList')
+    // 	const ids = loveList.map(item => item.id)
+    // 	state.playlist = payload.map(item => ({...item, isLove: ids.includes(item.id)}))
+    // 	console.log('store', loveList, state.playlist, payload.map(item => ({...item, isLove: ids.includes(item.id)})))
+    // },
+    // setCurIndex(state, payload) { // 更新当前下标
+    // 	state.curIndex = payload
+    // }
+  } });var _default =
+
+
+store;exports.default = _default;
+
+/***/ }),
 /* 398 */
 /*!**************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vuex3/dist/vuex.common.js ***!
@@ -21013,6 +21468,89 @@ var index_cjs = {
 module.exports = index_cjs;
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ 2)))
+
+/***/ }),
+/* 399 */,
+/* 400 */,
+/* 401 */,
+/* 402 */,
+/* 403 */,
+/* 404 */,
+/* 405 */,
+/* 406 */,
+/* 407 */,
+/* 408 */,
+/* 409 */,
+/* 410 */,
+/* 411 */,
+/* 412 */,
+/* 413 */,
+/* 414 */,
+/* 415 */
+/*!*************************************************************************************************************!*\
+  !*** E:/course_design_3/code/mini_music/mini_music/uni_modules/uview-ui/components/u-loading-page/props.js ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 提示内容
+    loadingText: {
+      type: [String, Number],
+      default: uni.$u.props.loadingPage.loadingText },
+
+    // 文字上方用于替换loading动画的图片
+    image: {
+      type: String,
+      default: uni.$u.props.loadingPage.image },
+
+    // 加载动画的模式，circle-圆形，spinner-花朵形，semicircle-半圆形
+    loadingMode: {
+      type: String,
+      default: uni.$u.props.loadingPage.loadingMode },
+
+    // 是否加载中
+    loading: {
+      type: Boolean,
+      default: uni.$u.props.loadingPage.loading },
+
+    // 背景色
+    bgColor: {
+      type: String,
+      default: uni.$u.props.loadingPage.bgColor },
+
+    // 文字颜色
+    color: {
+      type: String,
+      default: uni.$u.props.loadingPage.color },
+
+    // 文字大小
+    fontSize: {
+      type: [String, Number],
+      default: uni.$u.props.loadingPage.fontSize },
+
+    // 加载中图标的颜色，只能rgb或者十六进制颜色值
+    loadingColor: {
+      type: String,
+      default: uni.$u.props.loadingPage.loadingColor } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 416 */,
+/* 417 */,
+/* 418 */,
+/* 419 */
+/*!*************************************************************************!*\
+  !*** E:/course_design_3/code/mini_music/mini_music/common/iconfont.css ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+    if(false) { var cssReload; }
+  
 
 /***/ })
 ]]);

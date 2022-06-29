@@ -113,6 +113,9 @@ try {
     Search: function() {
       return __webpack_require__.e(/*! import() | components/Search/Search */ "components/Search/Search").then(__webpack_require__.bind(null, /*! @/components/Search/Search.vue */ 187))
     },
+    UserCenter: function() {
+      return __webpack_require__.e(/*! import() | components/UserCenter/UserCenter */ "components/UserCenter/UserCenter").then(__webpack_require__.bind(null, /*! @/components/UserCenter/UserCenter.vue */ 421))
+    },
     ChangeSkin: function() {
       return __webpack_require__.e(/*! import() | components/ChangeSkin/ChangeSkin */ "components/ChangeSkin/ChangeSkin").then(__webpack_require__.bind(null, /*! @/components/ChangeSkin/ChangeSkin.vue */ 199))
     },
@@ -294,7 +297,10 @@ var _vuex = __webpack_require__(/*! vuex */ 138);function _objectWithoutProperti
         icon: 'grid' }],
 
       curTab: 0,
-      show: false };
+      show: false,
+      come: 0,
+      active: 1,
+      out: false };
 
   },
   computed: _objectSpread({},
@@ -313,8 +319,6 @@ var _vuex = __webpack_require__(/*! vuex */ 138);function _objectWithoutProperti
     handleTabs: function handleTabs(_ref) {var index = _ref.index,item = _objectWithoutProperties(_ref, ["index"]);
       console.log('点击tab', item, index, this);
       this.curTab = index;
-      // const res = await this.$request('/hiddenTroubles/getInfo')
-      // console.log(res)
     },
     handlePersonTab: function handlePersonTab(item) {
       if (item.name == 'skin') {// 点击换肤

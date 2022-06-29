@@ -7,6 +7,7 @@
     "songers": "/components/Songers/Songers",
     "rank": "/components/Rank/Rank",
     "search": "/components/Search/Search",
+    "user-center": "/components/UserCenter/UserCenter",
     "change-skin": "/components/ChangeSkin/ChangeSkin",
     "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
     "u-cell-group": "/uni_modules/uview-ui/components/u-cell-group/u-cell-group",

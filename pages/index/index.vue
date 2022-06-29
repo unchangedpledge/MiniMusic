@@ -38,9 +38,9 @@
 		<view v-if="curTab == 3" class="search content">
 			<Search/>
 		</view>
-		<!-- <view v-if="curTab == 4" ref="user" :class="'user-center content ' + (out ? 'out' : '')" style="top: 40rpx;">
+		<view v-if="curTab == 4" ref="user" :class="'user-center content ' + (out ? 'out' : '')" style="top: 40rpx;">
 			<UserCenter @back="back" :active="active"/>
-		</view> -->
+		</view>
 		<view v-if="curTab == 5" ref="skin" :class="'change-skin content ' + theme">
 			<ChangeSkin @skinBack="skinBack" />
 		</view>
@@ -108,6 +108,9 @@
 				}],
 				curTab: 0,
 				show: false,
+				come: 0,
+				active: 1,
+				out: false,
 			}
 		},
 		computed: {
@@ -126,8 +129,6 @@
 			handleTabs({index, ...item}) {
 				console.log('点击tab', item, index, this)
 				this.curTab = index
-				// const res = await this.$request('/hiddenTroubles/getInfo')
-				// console.log(res)
 			},
 			handlePersonTab(item) {
 				if(item.name == 'skin') { // 点击换肤
@@ -211,7 +212,7 @@
 		z-index: 1000;
 	}
 
-	/* .user-center {
+	.user-center {
 		animation: come .3s;
 	}
 	
@@ -235,7 +236,7 @@
 		100% {
 			top: 100%;
 		}
-	} */
+	}
 	
 	.drawer {
 		height: 100%;

@@ -329,4 +329,28 @@
 .change-skin.theme3 {
   background-color: #d6a2e8;
 }
+.switch-item.active.theme1 {
+  background-color: #ff7675;
+}
+.switch-item.active.theme2 {
+  background-color: #00aaff;
+}
+.switch-item.active.theme3 {
+  background-color: #d6a2e8;
+}
+.random-play.theme1,
+.switch.theme1 {
+  border: 1px solid #ff7675;
+  color: #ff7675;
+}
+.random-play.theme2,
+.switch.theme2 {
+  border: 1px solid #00aaff;
+  color: #00aaff;
+}
+.random-play.theme3,
+.switch.theme3 {
+  border: 1px solid #d6a2e8;
+  color: #d6a2e8;
+}
 

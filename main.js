@@ -4,12 +4,14 @@ import App from './App'
 import Vue from 'vue'
 import uView from '@/uni_modules/uview-ui'
 import request from './utils/api'
+import store from './common/store' // 引入vuex
 
 Vue.prototype.$request = request
 Vue.config.productionTip = false
 Vue.use(uView)
 App.mpType = 'app'
 const app = new Vue({
+  store,
     ...App
 })
 app.$mount()

@@ -28,3 +28,20 @@ export function singerList(type) { // 歌手列表
 		method: 'GET',
 	})
 }
+
+
+// /search/hot/detail   可获取热门搜索列表
+export function searchHot(){
+	return uni.request({
+		url: `http://localhost:3000/search/hot/detail`,
+		method: 'GET',
+	});
+}
+// 搜索歌曲
+export function searchWord(word){
+	return uni.request({
+		url: `${baseUrl}/song/search?keywords=${word}`,
+		method: 'GET',
+	});
+}
+

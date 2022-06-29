@@ -19670,7 +19670,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.topList = topList;exports.singerList = singerList;var _config = __webpack_require__(/*! ./config.js */ 177);
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.topList = topList;exports.singerList = singerList;exports.searchHot = searchHot;exports.searchWord = searchWord;var _config = __webpack_require__(/*! ./config.js */ 177);
 
 function topList() {// 排行榜
   var listIds = ['3', '0', '2', '1'];
@@ -19697,6 +19697,22 @@ function topList() {// 排行榜
 function singerList(type) {// 歌手列表
   return uni.request({
     url: "".concat(_config.baseUrl, "/singers?type=").concat(type),
+    method: 'GET' });
+
+}
+
+
+// /search/hot/detail   可获取热门搜索列表
+function searchHot() {
+  return uni.request({
+    url: "http://localhost:3000/search/hot/detail",
+    method: 'GET' });
+
+}
+// 搜索歌曲
+function searchWord(word) {
+  return uni.request({
+    url: "".concat(_config.baseUrl, "/song/search?keywords=").concat(word),
     method: 'GET' });
 
 }

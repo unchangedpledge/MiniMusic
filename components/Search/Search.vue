@@ -71,12 +71,12 @@
 			}
 		},
 		mounted(){
-			// searchHot().then((res)=>{
-			// 	// console.log(res)
-			// 	if(res[1].data.code == '200'){
-			// 		this.searchHot = res[1].data.data;
-			// 	}
-			// });
+			searchHot().then((res)=>{
+				// console.log(res)
+				if(res[1].data.code == '200'){
+					this.searchHot = res[1].data.data;
+				}
+			});
 			uni.getStorage({
 				key: 'searchHistory',
 				success:(res)=>{
@@ -113,11 +113,11 @@
 				})
 			},
 			getSearchList(word){
-				// searchWord(word).then((res)=>{
-				// 	console.log('搜索结果', res[1].data)
-				// 	this.searchList = res[1].data.result.map(({songId, ...item}) => ({id: songId, ...item}));
-				// 	this.searchType = 2;
-				// })
+				searchWord(word).then((res)=>{
+					console.log('搜索结果', res[1].data)
+					this.searchList = res[1].data.result.map(({songId, ...item}) => ({id: songId, ...item}));
+					this.searchType = 2;
+				})
 			},
 			handleToClose(){
 				this.searchWord = '';

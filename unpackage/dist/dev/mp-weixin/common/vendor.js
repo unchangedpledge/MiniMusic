@@ -8642,9 +8642,9 @@ function resolveLocaleChain(locale) {
 
 /***/ }),
 /* 5 */
-/*!**********************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/pages.json ***!
-  \**********************************************/
+/*!*************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/pages.json ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8785,9 +8785,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 12 */
-/*!*****************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/index.js ***!
-  \*****************************************************************/
+/*!********************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/index.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8874,9 +8874,9 @@ var install = function install(Vue) {
 
 /***/ }),
 /* 13 */
-/*!****************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/mixin/mixin.js ***!
-  \****************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/mixin/mixin.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9043,9 +9043,9 @@ var install = function install(Vue) {
 
 /***/ }),
 /* 14 */
-/*!******************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
-  \******************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9058,9 +9058,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 15 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/index.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/index.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9071,9 +9071,9 @@ _Request.default;exports.default = _default;
 
 /***/ }),
 /* 16 */
-/*!******************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
-  \******************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9279,9 +9279,9 @@ Request = /*#__PURE__*/function () {
 
 /***/ }),
 /* 17 */
-/*!**************************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
-  \**************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9292,9 +9292,9 @@ function _default(config) {return (0, _index.default)(config);};exports.default 
 
 /***/ }),
 /* 18 */
-/*!********************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
-  \********************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9400,9 +9400,9 @@ function _default(config) {return new Promise(function (resolve, reject) {
 
 /***/ }),
 /* 19 */
-/*!**********************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
-  \**********************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9479,9 +9479,9 @@ function buildURL(url, params) {
 
 /***/ }),
 /* 20 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/utils.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/utils.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9620,9 +9620,9 @@ function isUndefined(val) {
 
 /***/ }),
 /* 21 */
-/*!************************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
-  \************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9650,9 +9650,9 @@ function buildFullPath(baseURL, requestedURL) {
 
 /***/ }),
 /* 22 */
-/*!***************************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
-  \***************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9674,9 +9674,9 @@ function isAbsoluteURL(url) {
 
 /***/ }),
 /* 23 */
-/*!*************************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
-  \*************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9698,9 +9698,9 @@ function combineURLs(baseURL, relativeURL) {
 
 /***/ }),
 /* 24 */
-/*!*****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9724,9 +9724,9 @@ function settle(resolve, reject, response) {var
 
 /***/ }),
 /* 25 */
-/*!*****************************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
-  \*****************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9784,9 +9784,9 @@ InterceptorManager;exports.default = _default;
 
 /***/ }),
 /* 26 */
-/*!**********************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
-  \**********************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9897,9 +9897,9 @@ function _default(globalsConfig) {var config2 = arguments.length > 1 && argument
 
 /***/ }),
 /* 27 */
-/*!*******************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
-  \*******************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9935,9 +9935,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 28 */
-/*!*****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12283,17 +12283,17 @@ module.exports = Array.isArray || function (arr) {
 
 /***/ }),
 /* 33 */
-/*!***************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/util/route.js ***!
-  \***************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/util/route.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 34));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;} /**
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    * 路由跳转方法，该方法相对于直接使用uni.xxx的好处是使用更加简单快捷
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    * 并且带有路由拦截功能
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    */var
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 * 路由跳转方法，该方法相对于直接使用uni.xxx的好处是使用更加简单快捷
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 * 并且带有路由拦截功能
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 */var
 
 Router = /*#__PURE__*/function () {
   function Router() {_classCallCheck(this, Router);
@@ -13206,9 +13206,9 @@ if (hadRuntime) {
 
 /***/ }),
 /* 37 */
-/*!***************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/colorGradient.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/colorGradient.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13349,9 +13349,9 @@ function colorToRgba(color, alpha) {
 
 /***/ }),
 /* 38 */
-/*!******************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/test.js ***!
-  \******************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/test.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13646,9 +13646,9 @@ function regExp(o) {
 
 /***/ }),
 /* 39 */
-/*!**********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/debounce.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/debounce.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13685,9 +13685,9 @@ debounce;exports.default = _default;
 
 /***/ }),
 /* 40 */
-/*!**********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/throttle.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/throttle.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13725,9 +13725,9 @@ throttle;exports.default = _default;
 
 /***/ }),
 /* 41 */
-/*!*******************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/index.js ***!
-  \*******************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/index.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14440,9 +14440,9 @@ function setConfig(_ref3)
 
 /***/ }),
 /* 42 */
-/*!*******************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/digit.js ***!
-  \*******************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/digit.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14615,9 +14615,9 @@ function enableBoundaryChecking() {var flag = arguments.length > 0 && arguments[
 
 /***/ }),
 /* 43 */
-/*!******************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/config.js ***!
-  \******************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/config.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14658,9 +14658,9 @@ if (true) {
 
 /***/ }),
 /* 44 */
-/*!*****************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props.js ***!
-  \*****************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14857,9 +14857,9 @@ _upload.default);exports.default = _default;
 
 /***/ }),
 /* 45 */
-/*!*****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14890,9 +14890,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 46 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/album.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/album.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14923,9 +14923,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 47 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/alert.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/alert.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14953,9 +14953,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 48 */
-/*!************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/avatar.js ***!
-  \************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/avatar.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14989,9 +14989,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 49 */
-/*!*****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15020,9 +15020,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 50 */
-/*!*************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/backtop.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/backtop.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15054,9 +15054,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 51 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/badge.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/badge.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15089,9 +15089,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 52 */
-/*!************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/button.js ***!
-  \************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/button.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15139,9 +15139,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 53 */
-/*!**************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/calendar.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/calendar.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15189,9 +15189,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 54 */
-/*!*****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15212,9 +15212,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 55 */
-/*!**********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/cell.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/cell.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15255,9 +15255,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 56 */
-/*!***************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15280,9 +15280,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 57 */
-/*!**************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15315,9 +15315,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 58 */
-/*!*******************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
-  \*******************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15352,9 +15352,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 59 */
-/*!********************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
-  \********************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15375,9 +15375,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 60 */
-/*!**********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/code.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/code.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15404,9 +15404,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 61 */
-/*!***************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15440,9 +15440,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 62 */
-/*!*********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/col.js ***!
-  \*********************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/col.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15467,9 +15467,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 63 */
-/*!**************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/collapse.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/collapse.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15492,9 +15492,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 64 */
-/*!******************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
-  \******************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15525,9 +15525,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 65 */
-/*!******************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
-  \******************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15557,9 +15557,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 66 */
-/*!***************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/countDown.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/countDown.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15583,9 +15583,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 67 */
-/*!*************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/countTo.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/countTo.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15616,9 +15616,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 68 */
-/*!********************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
-  \********************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15660,9 +15660,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 69 */
-/*!*************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/divider.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/divider.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15690,9 +15690,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 70 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/empty.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/empty.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15723,9 +15723,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 71 */
-/*!**********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/form.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/form.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15753,9 +15753,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 72 */
-/*!**************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/formItem.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/formItem.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15783,9 +15783,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 73 */
-/*!*********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/gap.js ***!
-  \*********************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/gap.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15810,9 +15810,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 74 */
-/*!**********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/grid.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/grid.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15835,9 +15835,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 75 */
-/*!**************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15859,9 +15859,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 76 */
-/*!**********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/icon.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/icon.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15903,9 +15903,9 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
 
 /***/ }),
 /* 77 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/image.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/image.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15941,9 +15941,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 78 */
-/*!*****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15968,9 +15968,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 79 */
-/*!***************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/indexList.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/indexList.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15995,9 +15995,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 80 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/input.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/input.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16051,9 +16051,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 81 */
-/*!**************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16089,9 +16089,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 82 */
-/*!**********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/line.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/line.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16117,9 +16117,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 83 */
-/*!******************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
-  \******************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16144,9 +16144,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 84 */
-/*!**********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/link.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/link.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16178,9 +16178,9 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
 
 /***/ }),
 /* 85 */
-/*!**********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/list.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/list.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16214,9 +16214,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 86 */
-/*!**************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/listItem.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/listItem.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16237,9 +16237,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 87 */
-/*!*****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16275,9 +16275,9 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
 
 /***/ }),
 /* 88 */
-/*!*****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16305,9 +16305,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 89 */
-/*!**************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16342,9 +16342,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 90 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/modal.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/modal.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16380,9 +16380,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 91 */
-/*!************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/navbar.js ***!
-  \************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/navbar.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16419,9 +16419,9 @@ var _color = _interopRequireDefault(__webpack_require__(/*! ../color */ 92));fun
 
 /***/ }),
 /* 92 */
-/*!*****************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/color.js ***!
-  \*****************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/color.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16446,9 +16446,9 @@ color;exports.default = _default;
 
 /***/ }),
 /* 93 */
-/*!***************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16471,9 +16471,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 94 */
-/*!***************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16506,9 +16506,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 95 */
-/*!************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/notify.js ***!
-  \************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/notify.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16536,9 +16536,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 96 */
-/*!***************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16579,9 +16579,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 97 */
-/*!********************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
-  \********************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16604,9 +16604,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 98 */
-/*!*************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/overlay.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/overlay.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16630,9 +16630,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 99 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/parse.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/parse.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16660,9 +16660,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 100 */
-/*!************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/picker.js ***!
-  \************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/picker.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16698,9 +16698,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 101 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/popup.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/popup.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16735,9 +16735,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 102 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/radio.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/radio.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16770,9 +16770,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 103 */
-/*!****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16808,9 +16808,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 104 */
-/*!**********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/rate.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/rate.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16842,9 +16842,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 105 */
-/*!**************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/readMore.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/readMore.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16872,9 +16872,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 106 */
-/*!*********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/row.js ***!
-  \*********************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/row.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16897,9 +16897,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 107 */
-/*!***************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16926,9 +16926,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 108 */
-/*!****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16954,9 +16954,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 109 */
-/*!************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/search.js ***!
-  \************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/search.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16999,9 +16999,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 110 */
-/*!*************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/section.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/section.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17031,9 +17031,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 111 */
-/*!**************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17064,9 +17064,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 112 */
-/*!************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/slider.js ***!
-  \************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/slider.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17097,9 +17097,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 113 */
-/*!***************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17120,9 +17120,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 114 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/steps.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/steps.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17149,9 +17149,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 115 */
-/*!***************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17175,9 +17175,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 116 */
-/*!************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/sticky.js ***!
-  \************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/sticky.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17203,9 +17203,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 117 */
-/*!****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/subsection.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/subsection.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17234,9 +17234,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 118 */
-/*!*****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17257,9 +17257,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 119 */
-/*!*********************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
-  \*********************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17286,9 +17286,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 120 */
-/*!************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/swiper.js ***!
-  \************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/swiper.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17332,9 +17332,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 121 */
-/*!**********************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
-  \**********************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17359,9 +17359,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 122 */
-/*!************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/switch.js ***!
-  \************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/switch.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17391,9 +17391,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 123 */
-/*!************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
-  \************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17421,9 +17421,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 124 */
-/*!****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17449,9 +17449,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 125 */
-/*!**********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tabs.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tabs.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17489,9 +17489,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 126 */
-/*!*********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tag.js ***!
-  \*********************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tag.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17526,9 +17526,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 127 */
-/*!**********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/text.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/text.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17571,9 +17571,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 128 */
-/*!**************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/textarea.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/textarea.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17615,9 +17615,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 129 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/toast.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/toast.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17652,9 +17652,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 130 */
-/*!*************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17680,9 +17680,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 131 */
-/*!*************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17713,9 +17713,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 132 */
-/*!****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/transition.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/transition.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17739,9 +17739,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 133 */
-/*!************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/upload.js ***!
-  \************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/props/upload.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17783,9 +17783,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 134 */
-/*!******************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/zIndex.js ***!
-  \******************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/config/zIndex.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17812,9 +17812,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 135 */
-/*!**********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/platform.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/function/platform.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17897,9 +17897,9 @@ platform;exports.default = _default;
 
 /***/ }),
 /* 136 */
-/*!************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/utils/api.js ***!
-  \************************************************/
+/*!***************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/utils/api.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17946,9 +17946,9 @@ module.exports = request;
 /* 148 */,
 /* 149 */,
 /* 150 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-icon/icons.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-icon/icons.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18169,9 +18169,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 151 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-icon/props.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-icon/props.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18273,9 +18273,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 157 */,
 /* 158 */,
 /* 159 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-tabs/props.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-tabs/props.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18357,9 +18357,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 170 */,
 /* 171 */,
 /* 172 */
-/*!*************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/common/api.js ***!
-  \*************************************************/
+/*!****************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/common/api.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18398,9 +18398,9 @@ function singerList(type) {// 歌手列表
 
 /***/ }),
 /* 173 */
-/*!****************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/common/config.js ***!
-  \****************************************************/
+/*!*******************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/common/config.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18428,9 +18428,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.baseUrl = 
 /* 191 */,
 /* 192 */,
 /* 193 */
-/*!************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-badge/props.js ***!
-  \************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-badge/props.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18515,9 +18515,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.baseUrl = 
 /* 199 */,
 /* 200 */,
 /* 201 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-list/props.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-list/props.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18607,9 +18607,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.baseUrl = 
 /* 207 */,
 /* 208 */,
 /* 209 */
-/*!****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-list-item/props.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-list-item/props.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18631,9 +18631,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.baseUrl = 
 /* 215 */,
 /* 216 */,
 /* 217 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-cell/props.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-cell/props.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18756,9 +18756,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.baseUrl = 
 /* 223 */,
 /* 224 */,
 /* 225 */
-/*!*************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-avatar/props.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-avatar/props.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18848,404 +18848,10 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.baseUrl = 
 /* 230 */,
 /* 231 */,
 /* 232 */,
-/* 233 */,
-/* 234 */,
-/* 235 */,
-/* 236 */,
-/* 237 */,
-/* 238 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-line/props.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
-  props: {
-    color: {
-      type: String,
-      default: uni.$u.props.line.color },
-
-    // 长度，竖向时表现为高度，横向时表现为长度，可以为百分比，带px单位的值等
-    length: {
-      type: [String, Number],
-      default: uni.$u.props.line.length },
-
-    // 线条方向，col-竖向，row-横向
-    direction: {
-      type: String,
-      default: uni.$u.props.line.direction },
-
-    // 是否显示细边框
-    hairline: {
-      type: Boolean,
-      default: uni.$u.props.line.hairline },
-
-    // 线条与上下左右元素的间距，字符串形式，如"30px"、"20px 30px"
-    margin: {
-      type: [String, Number],
-      default: uni.$u.props.line.margin },
-
-    // 是否虚线，true-实线，false-虚线
-    dashed: {
-      type: Boolean,
-      default: uni.$u.props.line.dashed } } };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 239 */,
-/* 240 */,
-/* 241 */,
-/* 242 */,
-/* 243 */,
-/* 244 */,
-/* 245 */,
-/* 246 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-text/props.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
-  props: {
-    // 主题颜色
-    type: {
-      type: String,
-      default: uni.$u.props.text.type },
-
-    // 是否显示
-    show: {
-      type: Boolean,
-      default: uni.$u.props.text.show },
-
-    // 显示的值
-    text: {
-      type: [String, Number],
-      default: uni.$u.props.text.text },
-
-    // 前置图标
-    prefixIcon: {
-      type: String,
-      default: uni.$u.props.text.prefixIcon },
-
-    // 后置图标
-    suffixIcon: {
-      type: String,
-      default: uni.$u.props.text.suffixIcon },
-
-    // 文本处理的匹配模式
-    // text-普通文本，price-价格，phone-手机号，name-姓名，date-日期，link-超链接
-    mode: {
-      type: String,
-      default: uni.$u.props.text.mode },
-
-    // mode=link下，配置的链接
-    href: {
-      type: String,
-      default: uni.$u.props.text.href },
-
-    // 格式化规则
-    format: {
-      type: [String, Function],
-      default: uni.$u.props.text.format },
-
-    // mode=phone时，点击文本是否拨打电话
-    call: {
-      type: Boolean,
-      default: uni.$u.props.text.call },
-
-    // 小程序的打开方式
-    openType: {
-      type: String,
-      default: uni.$u.props.text.openType },
-
-    // 是否粗体，默认normal
-    bold: {
-      type: Boolean,
-      default: uni.$u.props.text.bold },
-
-    // 是否块状
-    block: {
-      type: Boolean,
-      default: uni.$u.props.text.block },
-
-    // 文本显示的行数，如果设置，超出此行数，将会显示省略号
-    lines: {
-      type: [String, Number],
-      default: uni.$u.props.text.lines },
-
-    // 文本颜色
-    color: {
-      type: String,
-      default: uni.$u.props.text.color },
-
-    // 字体大小
-    size: {
-      type: [String, Number],
-      default: uni.$u.props.text.size },
-
-    // 图标的样式
-    iconStyle: {
-      type: [Object, String],
-      default: uni.$u.props.text.iconStyle },
-
-    // 文字装饰，下划线，中划线等，可选值 none|underline|line-through
-    decoration: {
-      tepe: String,
-      default: uni.$u.props.text.decoration },
-
-    // 外边距，对象、字符串，数值形式均可
-    margin: {
-      type: [Object, String, Number],
-      default: uni.$u.props.text.margin },
-
-    // 文本行高
-    lineHeight: {
-      type: [String, Number],
-      default: uni.$u.props.text.lineHeight },
-
-    // 文本对齐方式，可选值left|center|right
-    align: {
-      type: String,
-      default: uni.$u.props.text.align },
-
-    // 文字换行，可选值break-word|normal|anywhere
-    wordWrap: {
-      type: String,
-      default: uni.$u.props.text.wordWrap } } };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 247 */,
-/* 248 */,
-/* 249 */,
-/* 250 */,
-/* 251 */,
-/* 252 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-text/value.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
-  computed: {
-    // 经处理后需要显示的值
-    value: function value() {var
-
-      text =
-
-
-
-      this.text,mode = this.mode,format = this.format,href = this.href;
-      // 价格类型
-      if (mode === 'price') {
-        // 如果text不为金额进行提示
-        if (!/^\d+(\.\d+)?$/.test(text)) {
-          uni.$u.error('金额模式下，text参数需要为金额格式');
-        }
-        // 进行格式化，判断用户传入的format参数为正则，或者函数，如果没有传入format，则使用默认的金额格式化处理
-        if (uni.$u.test.func(format)) {
-          // 如果用户传入的是函数，使用函数格式化
-          return format(text);
-        }
-        // 如果format非正则，非函数，则使用默认的金额格式化方法进行操作
-        return uni.$u.priceFormat(text, 2);
-      }if (mode === 'date') {
-        // 判断是否合法的日期或者时间戳
-        !uni.$u.test.date(text) && uni.$u.error('日期模式下，text参数需要为日期或时间戳格式');
-        // 进行格式化，判断用户传入的format参数为正则，或者函数，如果没有传入format，则使用默认的格式化处理
-        if (uni.$u.test.func(format)) {
-          // 如果用户传入的是函数，使用函数格式化
-          return format(text);
-        }if (format) {
-          // 如果format非正则，非函数，则使用默认的时间格式化方法进行操作
-          return uni.$u.timeFormat(text, format);
-        }
-        // 如果没有设置format，则设置为默认的时间格式化形式
-        return uni.$u.timeFormat(text, 'yyyy-mm-dd');
-      }if (mode === 'phone') {
-        // 判断是否合法的手机号
-        // !uni.$u.test.mobile(text) && uni.$u.error('手机号模式下，text参数需要为手机号码格式')
-        if (uni.$u.test.func(format)) {
-          // 如果用户传入的是函数，使用函数格式化
-          return format(text);
-        }if (format === 'encrypt') {
-          // 如果format为encrypt，则将手机号进行星号加密处理
-          return "".concat(text.substr(0, 3), "****").concat(text.substr(7));
-        }
-        return text;
-      }if (mode === 'name') {
-        // 判断是否合法的字符粗
-        !(typeof text === 'string') && uni.$u.error('姓名模式下，text参数需要为字符串格式');
-        if (uni.$u.test.func(format)) {
-          // 如果用户传入的是函数，使用函数格式化
-          return format(text);
-        }if (format === 'encrypt') {
-          // 如果format为encrypt，则将姓名进行星号加密处理
-          return this.formatName(text);
-        }
-        return text;
-      }if (mode === 'link') {
-        // 判断是否合法的字符粗
-        !uni.$u.test.url(href) && uni.$u.error('超链接模式下，href参数需要为URL格式');
-        return text;
-      }
-      return text;
-    } },
-
-  methods: {
-    // 默认的姓名脱敏规则
-    formatName: function formatName(name) {
-      var value = '';
-      if (name.length === 2) {
-        value = name.substr(0, 1) + '*';
-      } else if (name.length > 2) {
-        var char = '';
-        for (var i = 0, len = name.length - 2; i < len; i++) {
-          char += '*';
-        }
-        value = name.substr(0, 1) + char + name.substr(-1, 1);
-      } else {
-        value = name;
-      }
-      return value;
-    } } };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 253 */
-/*!*****************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/mixin/button.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
-  props: {
-    lang: String,
-    sessionFrom: String,
-    sendMessageTitle: String,
-    sendMessagePath: String,
-    sendMessageImg: String,
-    showMessageCard: Boolean,
-    appParameter: String,
-    formType: String,
-    openType: String } };exports.default = _default;
-
-/***/ }),
-/* 254 */
-/*!*******************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/mixin/openType.js ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
-  props: {
-    openType: String },
-
-  methods: {
-    onGetUserInfo: function onGetUserInfo(event) {
-      this.$emit('getuserinfo', event.detail);
-    },
-    onContact: function onContact(event) {
-      this.$emit('contact', event.detail);
-    },
-    onGetPhoneNumber: function onGetPhoneNumber(event) {
-      this.$emit('getphonenumber', event.detail);
-    },
-    onError: function onError(event) {
-      this.$emit('error', event.detail);
-    },
-    onLaunchApp: function onLaunchApp(event) {
-      this.$emit('launchapp', event.detail);
-    },
-    onOpenSetting: function onOpenSetting(event) {
-      this.$emit('opensetting', event.detail);
-    } } };exports.default = _default;
-
-/***/ }),
-/* 255 */,
-/* 256 */,
-/* 257 */,
-/* 258 */,
-/* 259 */,
-/* 260 */,
-/* 261 */,
-/* 262 */
-/*!***********************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-link/props.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
-  props: {
-    // 文字颜色
-    color: {
-      type: String,
-      default: uni.$u.props.link.color },
-
-    // 字体大小，单位px
-    fontSize: {
-      type: [String, Number],
-      default: uni.$u.props.link.fontSize },
-
-    // 是否显示下划线
-    underLine: {
-      type: Boolean,
-      default: uni.$u.props.link.underLine },
-
-    // 要跳转的链接
-    href: {
-      type: String,
-      default: uni.$u.props.link.href },
-
-    // 小程序中复制到粘贴板的提示语
-    mpTips: {
-      type: String,
-      default: uni.$u.props.link.mpTips },
-
-    // 下划线颜色
-    lineColor: {
-      type: String,
-      default: uni.$u.props.link.lineColor },
-
-    // 超链接的问题，不使用slot形式传入，是因为nvue下无法修改颜色
-    text: {
-      type: String,
-      default: uni.$u.props.link.text } } };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 263 */,
-/* 264 */,
-/* 265 */,
-/* 266 */,
-/* 267 */,
-/* 268 */,
-/* 269 */,
-/* 270 */,
-/* 271 */,
-/* 272 */,
-/* 273 */,
-/* 274 */,
-/* 275 */,
-/* 276 */,
-/* 277 */,
-/* 278 */,
-/* 279 */
-/*!*******************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/common/iconfont.css ***!
-  \*******************************************************/
+/* 233 */
+/*!**********************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/common/iconfont.css ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19254,7 +18860,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   
 
 /***/ }),
-/* 280 */
+/* 234 */
 /*!**************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vuex3/dist/vuex.common.js ***!
   \**************************************************************************************/
@@ -20510,17 +20116,188 @@ module.exports = index_cjs;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ 2)))
 
 /***/ }),
-/* 281 */,
-/* 282 */,
-/* 283 */,
-/* 284 */,
-/* 285 */,
-/* 286 */,
-/* 287 */,
-/* 288 */
-/*!*******************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-loading-page/props.js ***!
-  \*******************************************************************************************/
+/* 235 */,
+/* 236 */,
+/* 237 */,
+/* 238 */,
+/* 239 */,
+/* 240 */,
+/* 241 */,
+/* 242 */
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-line/props.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    color: {
+      type: String,
+      default: uni.$u.props.line.color },
+
+    // 长度，竖向时表现为高度，横向时表现为长度，可以为百分比，带px单位的值等
+    length: {
+      type: [String, Number],
+      default: uni.$u.props.line.length },
+
+    // 线条方向，col-竖向，row-横向
+    direction: {
+      type: String,
+      default: uni.$u.props.line.direction },
+
+    // 是否显示细边框
+    hairline: {
+      type: Boolean,
+      default: uni.$u.props.line.hairline },
+
+    // 线条与上下左右元素的间距，字符串形式，如"30px"、"20px 30px"
+    margin: {
+      type: [String, Number],
+      default: uni.$u.props.line.margin },
+
+    // 是否虚线，true-实线，false-虚线
+    dashed: {
+      type: Boolean,
+      default: uni.$u.props.line.dashed } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 243 */,
+/* 244 */,
+/* 245 */,
+/* 246 */,
+/* 247 */,
+/* 248 */,
+/* 249 */,
+/* 250 */
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-text/props.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 主题颜色
+    type: {
+      type: String,
+      default: uni.$u.props.text.type },
+
+    // 是否显示
+    show: {
+      type: Boolean,
+      default: uni.$u.props.text.show },
+
+    // 显示的值
+    text: {
+      type: [String, Number],
+      default: uni.$u.props.text.text },
+
+    // 前置图标
+    prefixIcon: {
+      type: String,
+      default: uni.$u.props.text.prefixIcon },
+
+    // 后置图标
+    suffixIcon: {
+      type: String,
+      default: uni.$u.props.text.suffixIcon },
+
+    // 文本处理的匹配模式
+    // text-普通文本，price-价格，phone-手机号，name-姓名，date-日期，link-超链接
+    mode: {
+      type: String,
+      default: uni.$u.props.text.mode },
+
+    // mode=link下，配置的链接
+    href: {
+      type: String,
+      default: uni.$u.props.text.href },
+
+    // 格式化规则
+    format: {
+      type: [String, Function],
+      default: uni.$u.props.text.format },
+
+    // mode=phone时，点击文本是否拨打电话
+    call: {
+      type: Boolean,
+      default: uni.$u.props.text.call },
+
+    // 小程序的打开方式
+    openType: {
+      type: String,
+      default: uni.$u.props.text.openType },
+
+    // 是否粗体，默认normal
+    bold: {
+      type: Boolean,
+      default: uni.$u.props.text.bold },
+
+    // 是否块状
+    block: {
+      type: Boolean,
+      default: uni.$u.props.text.block },
+
+    // 文本显示的行数，如果设置，超出此行数，将会显示省略号
+    lines: {
+      type: [String, Number],
+      default: uni.$u.props.text.lines },
+
+    // 文本颜色
+    color: {
+      type: String,
+      default: uni.$u.props.text.color },
+
+    // 字体大小
+    size: {
+      type: [String, Number],
+      default: uni.$u.props.text.size },
+
+    // 图标的样式
+    iconStyle: {
+      type: [Object, String],
+      default: uni.$u.props.text.iconStyle },
+
+    // 文字装饰，下划线，中划线等，可选值 none|underline|line-through
+    decoration: {
+      tepe: String,
+      default: uni.$u.props.text.decoration },
+
+    // 外边距，对象、字符串，数值形式均可
+    margin: {
+      type: [Object, String, Number],
+      default: uni.$u.props.text.margin },
+
+    // 文本行高
+    lineHeight: {
+      type: [String, Number],
+      default: uni.$u.props.text.lineHeight },
+
+    // 文本对齐方式，可选值left|center|right
+    align: {
+      type: String,
+      default: uni.$u.props.text.align },
+
+    // 文字换行，可选值break-word|normal|anywhere
+    wordWrap: {
+      type: String,
+      default: uni.$u.props.text.wordWrap } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 251 */,
+/* 252 */,
+/* 253 */,
+/* 254 */,
+/* 255 */,
+/* 256 */
+/*!**********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-loading-page/props.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20569,17 +20346,172 @@ module.exports = index_cjs;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 289 */,
-/* 290 */,
-/* 291 */,
-/* 292 */,
-/* 293 */,
-/* 294 */,
-/* 295 */,
-/* 296 */
-/*!*****************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-transition/props.js ***!
-  \*****************************************************************************************/
+/* 257 */,
+/* 258 */,
+/* 259 */,
+/* 260 */,
+/* 261 */,
+/* 262 */,
+/* 263 */,
+/* 264 */
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-text/value.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  computed: {
+    // 经处理后需要显示的值
+    value: function value() {var
+
+      text =
+
+
+
+      this.text,mode = this.mode,format = this.format,href = this.href;
+      // 价格类型
+      if (mode === 'price') {
+        // 如果text不为金额进行提示
+        if (!/^\d+(\.\d+)?$/.test(text)) {
+          uni.$u.error('金额模式下，text参数需要为金额格式');
+        }
+        // 进行格式化，判断用户传入的format参数为正则，或者函数，如果没有传入format，则使用默认的金额格式化处理
+        if (uni.$u.test.func(format)) {
+          // 如果用户传入的是函数，使用函数格式化
+          return format(text);
+        }
+        // 如果format非正则，非函数，则使用默认的金额格式化方法进行操作
+        return uni.$u.priceFormat(text, 2);
+      }if (mode === 'date') {
+        // 判断是否合法的日期或者时间戳
+        !uni.$u.test.date(text) && uni.$u.error('日期模式下，text参数需要为日期或时间戳格式');
+        // 进行格式化，判断用户传入的format参数为正则，或者函数，如果没有传入format，则使用默认的格式化处理
+        if (uni.$u.test.func(format)) {
+          // 如果用户传入的是函数，使用函数格式化
+          return format(text);
+        }if (format) {
+          // 如果format非正则，非函数，则使用默认的时间格式化方法进行操作
+          return uni.$u.timeFormat(text, format);
+        }
+        // 如果没有设置format，则设置为默认的时间格式化形式
+        return uni.$u.timeFormat(text, 'yyyy-mm-dd');
+      }if (mode === 'phone') {
+        // 判断是否合法的手机号
+        // !uni.$u.test.mobile(text) && uni.$u.error('手机号模式下，text参数需要为手机号码格式')
+        if (uni.$u.test.func(format)) {
+          // 如果用户传入的是函数，使用函数格式化
+          return format(text);
+        }if (format === 'encrypt') {
+          // 如果format为encrypt，则将手机号进行星号加密处理
+          return "".concat(text.substr(0, 3), "****").concat(text.substr(7));
+        }
+        return text;
+      }if (mode === 'name') {
+        // 判断是否合法的字符粗
+        !(typeof text === 'string') && uni.$u.error('姓名模式下，text参数需要为字符串格式');
+        if (uni.$u.test.func(format)) {
+          // 如果用户传入的是函数，使用函数格式化
+          return format(text);
+        }if (format === 'encrypt') {
+          // 如果format为encrypt，则将姓名进行星号加密处理
+          return this.formatName(text);
+        }
+        return text;
+      }if (mode === 'link') {
+        // 判断是否合法的字符粗
+        !uni.$u.test.url(href) && uni.$u.error('超链接模式下，href参数需要为URL格式');
+        return text;
+      }
+      return text;
+    } },
+
+  methods: {
+    // 默认的姓名脱敏规则
+    formatName: function formatName(name) {
+      var value = '';
+      if (name.length === 2) {
+        value = name.substr(0, 1) + '*';
+      } else if (name.length > 2) {
+        var char = '';
+        for (var i = 0, len = name.length - 2; i < len; i++) {
+          char += '*';
+        }
+        value = name.substr(0, 1) + char + name.substr(-1, 1);
+      } else {
+        value = name;
+      }
+      return value;
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 265 */
+/*!********************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/mixin/button.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    lang: String,
+    sessionFrom: String,
+    sendMessageTitle: String,
+    sendMessagePath: String,
+    sendMessageImg: String,
+    showMessageCard: Boolean,
+    appParameter: String,
+    formType: String,
+    openType: String } };exports.default = _default;
+
+/***/ }),
+/* 266 */
+/*!**********************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/libs/mixin/openType.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    openType: String },
+
+  methods: {
+    onGetUserInfo: function onGetUserInfo(event) {
+      this.$emit('getuserinfo', event.detail);
+    },
+    onContact: function onContact(event) {
+      this.$emit('contact', event.detail);
+    },
+    onGetPhoneNumber: function onGetPhoneNumber(event) {
+      this.$emit('getphonenumber', event.detail);
+    },
+    onError: function onError(event) {
+      this.$emit('error', event.detail);
+    },
+    onLaunchApp: function onLaunchApp(event) {
+      this.$emit('launchapp', event.detail);
+    },
+    onOpenSetting: function onOpenSetting(event) {
+      this.$emit('opensetting', event.detail);
+    } } };exports.default = _default;
+
+/***/ }),
+/* 267 */,
+/* 268 */,
+/* 269 */,
+/* 270 */,
+/* 271 */,
+/* 272 */,
+/* 273 */,
+/* 274 */
+/*!********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-transition/props.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20608,10 +20540,10 @@ module.exports = index_cjs;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 297 */
-/*!**********************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-transition/transition.js ***!
-  \**********************************************************************************************/
+/* 275 */
+/*!*************************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-transition/transition.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20619,7 +20551,7 @@ module.exports = index_cjs;
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 34));
 
 
-var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 298));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
+var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 276));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
 var nextTick = function nextTick() {return new Promise(function (resolve) {return setTimeout(resolve, 1000 / 50);});}; // nvue动画模块实现细节抽离在外部文件
 
 // 定义类名，通过给元素动态切换类名，赋予元素一定的css动画样式
@@ -20773,10 +20705,10 @@ var getClassNames = function getClassNames(name) {return {
     } } };exports.default = _default;
 
 /***/ }),
-/* 298 */
-/*!************************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-transition/nvue.ani-map.js ***!
-  \************************************************************************************************/
+/* 276 */
+/*!***************************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-transition/nvue.ani-map.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20849,17 +20781,17 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     'leave-to': { opacity: 0, transform: 'scale(0.95)' } } };exports.default = _default;
 
 /***/ }),
-/* 299 */,
-/* 300 */,
-/* 301 */,
-/* 302 */,
-/* 303 */,
-/* 304 */,
-/* 305 */,
-/* 306 */
-/*!*******************************************************************************************!*\
-  !*** D:/Desktop/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
-  \*******************************************************************************************/
+/* 277 */,
+/* 278 */,
+/* 279 */,
+/* 280 */,
+/* 281 */,
+/* 282 */,
+/* 283 */,
+/* 284 */
+/*!**********************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20920,6 +20852,60 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     inactiveColor: {
       type: String,
       default: uni.$u.props.loadingIcon.inactiveColor } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 285 */,
+/* 286 */,
+/* 287 */,
+/* 288 */,
+/* 289 */,
+/* 290 */,
+/* 291 */,
+/* 292 */
+/*!**************************************************************************************!*\
+  !*** D:/Desktop/三下/课设三/最终/MiniMusic/uni_modules/uview-ui/components/u-link/props.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 文字颜色
+    color: {
+      type: String,
+      default: uni.$u.props.link.color },
+
+    // 字体大小，单位px
+    fontSize: {
+      type: [String, Number],
+      default: uni.$u.props.link.fontSize },
+
+    // 是否显示下划线
+    underLine: {
+      type: Boolean,
+      default: uni.$u.props.link.underLine },
+
+    // 要跳转的链接
+    href: {
+      type: String,
+      default: uni.$u.props.link.href },
+
+    // 小程序中复制到粘贴板的提示语
+    mpTips: {
+      type: String,
+      default: uni.$u.props.link.mpTips },
+
+    // 下划线颜色
+    lineColor: {
+      type: String,
+      default: uni.$u.props.link.lineColor },
+
+    // 超链接的问题，不使用slot形式传入，是因为nvue下无法修改颜色
+    text: {
+      type: String,
+      default: uni.$u.props.link.text } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ })

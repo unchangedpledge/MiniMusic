@@ -95,3 +95,9 @@ export async function songDetail(songId) { // 歌曲详情
 	return res1
 }
 
+export function songsOfsinger(name) { // 列表
+	return uni.request({
+		url: `${baseUrl}/song/singer?singer=${name}`,
+		method: 'GET',
+	})
+}

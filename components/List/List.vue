@@ -63,7 +63,7 @@
 			...mapState(['mini'])
 		},
 		mounted() {
-			// if(this.showList) { // 推荐页面进入
+			if(this.showList) { // 推荐页面进入
 				console.log('歌单id', this.id)
 				list(this.id).then((res)=>{
 					const playlist = res[1].data.result
@@ -86,19 +86,19 @@
 					}
 					this.isLoading = false
 				})
-			// }else if(this.singerName){ // 歌手页面进入
-			// 	console.log('歌手', this.singerName)
-			// 	songsOfsinger(this.singerName).then((res)=>{
-			// 		console.log('歌手歌曲', res[1].data.result)
-			// 		const data = res[1].data.result.map(item => ({id: item.songId, name: item.name, ar: [{name: this.singerName}]}))
-			// 		this.playlist = {
-			// 			tracks: data,
-			// 			coverImgUrl: this.singerAvatar,
-			// 			description: ''
-			// 		}
-			// 		this.isLoading = false
-			// 	})
-			// }
+			}else if(this.singerName){ // 歌手页面进入
+				console.log('歌手', this.singerName)
+				songsOfsinger(this.singerName).then((res)=>{
+					console.log('歌手歌曲', res[1].data.result)
+					const data = res[1].data.result.map(item => ({id: item.songId, name: item.name, ar: [{name: this.singerName}]}))
+					this.playlist = {
+						tracks: data,
+						coverImgUrl: this.singerAvatar,
+						description: ''
+					}
+					this.isLoading = false
+				})
+			}
 		},
 		methods: {
 			...mapMutations(['updatePlaylist', 'setCurIndex']),

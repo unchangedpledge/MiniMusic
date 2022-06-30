@@ -101,7 +101,7 @@
 			// }
 		},
 		methods: {
-			// ...mapMutations(['updatePlaylist', 'setCurIndex']),
+			...mapMutations(['updatePlaylist', 'setCurIndex']),
 			test() {
 				this.$emit('backRank')
 			},
@@ -112,8 +112,8 @@
 					singer: item.ar[0].name
 				}))
 				console.log('点击', index, playlist)
-				// this.updatePlaylist(playlist)
-				// this.setCurIndex(index)
+				this.updatePlaylist(playlist)
+				this.setCurIndex(index)
 				console.log(this.playlist)
 			}
 		}

@@ -15,13 +15,11 @@
 				<view v-if="!showLyric" class="mid-circle">
 					<view class="container" v-show="!isLoading">
 						<view class="detail-paly" @tap="handToPlay">
-							<image :src="songDetail.al.picUrl" :class="{'detail-paly-run': isPlayRotate}" mode=""></image>
-							<!-- :class="{iconPlay}" -->
-							<text class="iconfont" :class="iconPlay"></text>
-							<view></view>
+							<image :src="songDetail.pic" :class="{'detail-paly-run': isPlayRotate}" mode=""></image>
+							<view :class="{'pause': !isPlayRotate}"></view>
 						</view>
 						<view class="detail-lyric">
-							<view class="detail-lyric-wrap" :style="{transform : 'translateY('+ -(lyricIndex-1)*82 +'rpx)'}">
+							<view class="detail-lyric-wrap" :style="{transform : 'translateY('+ -(lyricIndex)*82 +'rpx)'}">
 								<!-- <view class="detail-lyric-item">测试文字</view> -->
 								<!-- <view class="detail-lyric-item active">测试文文字测试文字</view> -->
 								<view class="detail-lyric-item" :class="{active : lyricIndex == index}" v-for="(item,index) in songLyric" :key="index">{{item.lyric}}</view>
@@ -112,134 +110,449 @@
 </template>
 
 <script>
-	import '@/common/iconfont.css' //图标引用
+	import {mapState, mapMutations} from 'vuex'
 	import {songDetail, songLyric, songUrl} from '../../common/api.js'
 	export default {
+		name:"Player",
 		data() {
 			return {
-				songDetail: {
-					al:{
-						picUrl:''
-					}
-				},
-				songLyric:[],
+				display: false,
+				showPlayer: false,
+				showLyric: false,
+				close: false,
+				songLyric: [],
 				lyricIndex: 0,
 				bgAudioManager:'',
 				iconPlay:'icon-zanting',
 				isPlayRotate: true,
 				isLoading: true,
+				max: 100,
+				nowTime: 0,
+				finalTime: 0,
+				showFinalTime: 0,
+				isDelete: false,
+				playMode: ['icon-xunhuanbofang', 'icon-danquxunhuan', 'icon-suijibofang'],
+				modeIndex: 0,
+				
+				musicState: false, // true为播放，false为未播放
 				showList: false,
+				
 			}
 		},
-		components:{
+		computed: {
+			...mapState(['theme', 'mini', 'songDetail', 'playlist', 'curIndex']),
+			showNowTime() {
+				const m = Math.floor(this.nowTime / 60)
+				const s = Math.round(this.nowTime % 60)
+				return `${m}:${s >= 10 ? s : '0'+s}`
+			},
 		},
-		onLoad(options){
-			// console.log(options.songId)
-			this.getMusic(options.songId)
+		mounted() {
+			console.log('mini', this.mini)
+			// this.getMusic(19723756)
+			
 		},
-		onUnload(){
-			clearInterval(this.timer);
-		},
-		onHide(){
-			clearInterval(this.timer);
+		watch: {
+			playlist(newVal, old) {
+				if(!this.isDelete) {
+					if(this.showPlayer == false) {
+						this.showPlayer = true
+					}
+					this.openNormal()
+					console.log('playlist变化')
+					this.getMusic()
+				}else {
+					this.isDelete = false
+				}
+			}
 		},
 		methods: {
-			formatTimeToSec(value){
-				let arr = value.split(':');
-				return (Number(arr[0]*60)+Number(arr[1])).toFixed(1);
+			...mapMutations(['setSongDetail', 'showMiniPlayer', 'setCurIndex']),
+			openNormal() {
+				this.display = true
+				// console.log(this.songDetail)
 			},
-			getMusic(songId){
-				this.$store.commit('NEXT_ID',songId);
-				this.isLoading = true;
-				Promise.all([songDetail(songId),songLyric(songId),songUrl(songId)]).then((res)=>{
-					console.log(res)
-					if(res[0][1].data.code == '200'){
-						this.songDetail = res[0][1].data.songs[0];
-					}
-					if(res[1][1].data.code == '200'){
-						// this.songLyric = res[1][1].data.songs[0];
-						let lyric = res[1][1].data.lrc.lyric;
-						let re = /\[([^\]]+)\]([^\[]+)/g;
-						console.log(lyric.match(re))
-						var result = [];
-						lyric.replace(re,($0,$1,$2)=>{
-							result.push({"time":this.formatTimeToSec($1),"lyric":$2});
-						});
-						this.songLyric = result;
-						console.log(this.songLyric)
-					}
-					if(res[2][1].data.code == '200'){
-						// 背景音频，不是游戏的背景音乐，
-						// 而是类似QQ音乐那样，App在后台时，仍然在播放音乐。
-						// 如果你不需要在App切后台时继续播放，那么不应该使用本API，
-						// 而应该使用普通音频APIuni.createInnerAudioContext (opens new window)。
-						this.bgAudioManager = uni.getBackgroundAudioManager();
-						this.bgAudioManager.title = this.songDetail.name;
-						this.bgAudioManager.src = res[2][1].data.data[0].url || '';
-						this.listenLyricIndex();
-						this.bgAudioManager.onPlay(()=>{
-							this.iconPlay = "icon-zanting";
-							this.isPlayRotate = true;
-							this.listenLyricIndex();
-						});
-						this.bgAudioManager.onPause(()=>{
-							this.iconPlay = "icon-24gl-playCircle";
-							this.isPlayRotate = false;
-							clearInterval(this.timer)
-						});
-						this.bgAudioManager.onEnded(()=>{
-							this.getMusic(this.$store.state.nextId);
-						})
-					}
-				});
-				this.isLoading = false;
+			closeNormal() {
+				this.close = true
+				this.showMiniPlayer()
+				setTimeout(()=>{
+					this.display = false
+					this.close = false
+				}, 280)
 			},
-			handToPlay(){
+			formatTimeToSec(time) {
+				let arr = time.split(':')
+				return (arr[0]*60) + +(+arr[1]).toFixed(1)
+			},
+			changeMusicState(e) {
+				this.musicState = !this.musicState
+			},
+			changePlayMode() {
+				this.modeIndex = (this.modeIndex + 1) % 3
+			},
+			openPlayList() { // 打开播放列表
+				this.showList = true
+			},
+			closePlayList() {
+				this.showList = false
+				console.log('关闭播放列表', this.playlist)
+				const loveList = uni.getStorageSync('loveList')
+				const temp = [...this.playlist, ...loveList].map(item => item.id)
+				console.log(temp)
+				const newList = [...this.playlist, ...loveList].filter((item, index) => {
+					// index == temp.indexOf(item.id) && item.isLove && console.log(index, item)
+					return index == temp.indexOf(item.id) && item.isLove
+				})
+				console.log('新列表', newList)
+				uni.setStorage({
+					key: 'loveList',
+					data: [...newList],
+					success: function () {
+						console.log('success, 收藏成功')
+					},
+					fail(e) {
+						console.log('存储失败', e)
+					}
+				})
+			},
+			handleMusic(type, index) {
+				console.log('点击操作', type, this.playlist[index])
+				const item = this.playlist[index]
+				if(type == 'love') {
+					item.isLove = !item.isLove
+				}else {
+					this.isDelete = true
+					this.playlist.splice(+index, 1)
+					console.log(this.curIndex, index)
+					if(index == this.curIndex) {
+						this.playNextMusic()
+					}else if(index < this.curIndex) {
+						this.setCurIndex(this.curIndex - 1)
+					}
+				}
+			},
+			handlePlay(){
+				console.log('play')
 				if(this.bgAudioManager.paused){
-					this.bgAudioManager.play();
+					this.bgAudioManager.play()
+					this.isPlayRotate = true
 				}
 				else{
-					this.bgAudioManager.pause();
+					this.bgAudioManager.pause()
+					this.isPlayRotate = false
 				}
 			},
+			playMusicByIndex(index) {
+				console.log('点击歌曲', index)
+				this.setCurIndex(index)
+				this.getMusic()
+				this.closePlayList()
+			},
+			playNextMusic() {
+				let next = (this.curIndex + 1) % this.playlist.length
+				if(this.modeIndex == 1) { // 单曲循环
+					this.getMusic()
+					return
+				}else if(this.modeIndex == 2) { // 随机播放
+					next = Math.floor(Math.random() * this.playlist.length)
+				}
+				this.setCurIndex(next)
+				this.getMusic()
+			},
+			playPrevMusic() {
+				const len = this.playlist.length
+				const prev = (this.curIndex - 1 + len) % len
+				this.setCurIndex(prev)
+				this.getMusic()
+			},
+			getMusic(){
+				
+				// console.log(this.playlist[this.curIndex])
+				this.nowTime = 0
+				this.isLoading = true;
+				songDetail(this.playlist[this.curIndex].id).then(async (res)=>{
+					let songDetail = res[1].data.result // 自己的里面没有
+					if(!songDetail) {
+						// console.log('123123', res[1])
+						const url = await songUrl(res[1].data.songs[0].id)
+						const lyric = await songLyric(res[1].data.songs[0].id)
+						songDetail = {
+							songId: res[1].data.songs[0].id, 
+							name: res[1].data.songs[0].name, 
+							songer: res[1].data.songs[0].ar.map(item=>item.name).join('/'),
+							url: url[1].data.data[0].url || `https://music.163.com/song/media/outer/url?id=${res[1].data.songs[0].id}.mp3`,
+							pic: res[1].data.songs[0].al.picUrl,
+							lyric: lyric[1].data.lrc.lyric
+						}
+					}
+					console.log('详情', songDetail)
+					// 添加到最近播放
+					const latestList = uni.getStorageSync('latestList')
+					const newItem = this.playlist[this.curIndex]
+					const ids = [newItem, ...latestList].map(item => item.id)
+					const newList = [newItem, ...latestList].filter((item, index) => {
+						return index == ids.indexOf(item.id)
+					})
+					console.log('最近播放', newList)
+					uni.setStorage({
+						key: 'latestList',
+						data: [...newList],
+						success: function () {
+							console.log('添加到最近播放')
+						}
+					})
+					
+					this.setSongDetail(songDetail)
+					
+					let reg = /\[([^\]]+)\]([^\[]+)/g
+					const result = []
+					songDetail.lyric.replace(reg, ($0, $1, $2)=>{
+						result.push({
+							actualTime: $1.split('.')[0],
+							time: this.formatTimeToSec($1), 
+							lyric: $2,
+						})
+					})
+					console.log('歌词', result)
+					this.songLyric = result
+					this.max = result[result.length-1].time
+					this.finalTime = result[result.length-1].actualTime
+					
+					this.bgAudioManager = uni.getBackgroundAudioManager()
+					this.bgAudioManager.title = songDetail.name;
+					this.bgAudioManager.src =  `https://music.163.com/song/media/outer/url?id=${songDetail.songId}.mp3`
+					
+					console.log('url', songDetail.url)
+					
+					this.listenLyricIndex()
+					this.bgAudioManager.onPlay(()=>{
+						this.isPlayRotate = true
+						this.listenLyricIndex()
+						console.log('final', this.bgAudioManager)
+						console.log('final', this.bgAudioManager.duration)
+					});
+					this.bgAudioManager.onPause(()=>{
+						this.isPlayRotate = false;
+						clearInterval(this.timer)
+						clearInterval(this.nowTimer)
+					});
+					this.bgAudioManager.onEnded(()=>{
+						console.log('完毕, ended触发')
+						this.playNextMusic()
+					})
+					this.bgAudioManager.onError((e)=>{
+						console.log('出错')
+						this.bgAudioManager.src = songDetail.url
+					})
+					this.isLoading = false
+					
+				})
+				// Promise.all([songDetail(songId),songLyric(songId),songUrl(songId)]).then((res)=>{
+				// 	console.log(res)
+				// 	if(res[0][1].data.code == '200'){
+				// 		this.songDetail = res[0][1].data.songs[0];
+				// 	}
+				// 	if(res[1][1].data.code == '200'){
+				// 		// this.songLyric = res[1][1].data.songs[0];
+				// 		let lyric = res[1][1].data.lrc.lyric;
+				// 		let re = /\[([^\]]+)\]([^\[]+)/g;
+				// 		console.log(lyric.match(re))
+				// 		var result = [];
+				// 		lyric.replace(re,($0,$1,$2)=>{
+				// 			result.push({"time":this.formatTimeToSec($1),"lyric":$2});
+				// 		});
+				// 		this.songLyric = result;
+				// 		console.log(this.songLyric)
+				// 	}
+				// 	if(res[2][1].data.code == '200'){
+				// 		// 背景音频，不是游戏的背景音乐，
+				// 		// 而是类似QQ音乐那样，App在后台时，仍然在播放音乐。
+				// 		// 如果你不需要在App切后台时继续播放，那么不应该使用本API，
+				// 		// 而应该使用普通音频APIuni.createInnerAudioContext (opens new window)。
+				// 		this.bgAudioManager = uni.getBackgroundAudioManager();
+				// 		this.bgAudioManager.title = this.songDetail.name;
+				// 		this.bgAudioManager.src = res[2][1].data.data[0].url || '';
+				// 		this.listenLyricIndex();
+				// 		this.bgAudioManager.onPlay(()=>{
+				// 			this.iconPlay = "icon-zanting";
+				// 			this.isPlayRotate = true;
+				// 			this.listenLyricIndex();
+				// 		});
+				// 		this.bgAudioManager.onPause(()=>{
+				// 			this.iconPlay = "icon-24gl-playCircle";
+				// 			this.isPlayRotate = false;
+				// 			clearInterval(this.timer)
+				// 		});
+				// 		this.bgAudioManager.onEnded(()=>{
+				// 			this.getMusic(this.$store.state.nextId);
+				// 		})
+				// 	}
+				// });
+				// this.isLoading = false;
+			},
 			listenLyricIndex(){
-				clearImmediate(this.timer);
+				clearInterval(this.timer)
+				clearInterval(this.nowTimer)
 				this.timer = setInterval(()=>{
 					for(var i = 0; i < this.songLyric.length; i++){
-						// console.log('cur', this.bgAudioManager.currentTime);
-						// console.log(i)
-						// console.log('i', this.songLyric[i].time)
-						// console.log('i+1', this.songLyric[i+1].time)
-						// console.log(this.bgAudioManager.currentTime > Number(this.songLyric[i].time))
-						// console.log(this.bgAudioManager.currentTime < Number(this.songLyric[i+1].time))
 						if(this.bgAudioManager.currentTime > this.songLyric[this.songLyric.length-1].time){
 							this.lyricIndex = this.songLyric.length-1;
 							break;
 						}
-						if(this.bgAudioManager.currentTime > this.songLyric[i].time+0 
-						&& this.bgAudioManager.currentTime < this.songLyric[i+1].time+0){
-							// console.log('this',i)
-							this.lyricIndex = i;
-							console.log("000",this.lyricIndex);
+						if(this.bgAudioManager.currentTime < this.songLyric[i].time+0){
+							this.lyricIndex = i - 1;
+							// console.log("000",this.lyricIndex)
+							break
 						}
 					}
-					console.log(this.lyricIndex);
-				},50)
+					// console.log(this.lyricIndex)
+				},500)
+				this.nowTimer = setInterval(()=>{
+					// console.log(111, this.max, this.nowTime)
+					if(this.max > this.nowTime) {
+						this.nowTime++
+					}else {
+						clearInterval(this.nowTimer)
+					}
+				},1000)
+			},
+			handleDrag(value) { // 拖动进度条
+				console.log('拖动',value, this.bgAudioManager)
+				this.bgAudioManager.seek(value)
+				
 			}
-			
-			
 		}
 	}
 </script>
 
-<style scoped>
-	.detail-paly{
-		width:580rpx;
-		height: 580rpx;
+<style>
+	@import url('@/common/iconfont.css');
+	
+	.normal-player {
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		z-index: 150;
+		background: #222;
+		animation: open .3s ease-out;
+	}
+	
+	.normal-close {
+		animation: close .3s ease-out;
+	}
+	
+	@keyframes open {
+		0% {
+			opacity: 0;
+			left: 0;
+			bottom: 0;
+			right: 100%;
+			top: 100%;
+		}
+		
+		100% {
+			opacity: 1;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+		}
+	}
+	
+	@keyframes close {
+		0% {
+			opacity: 1;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+		}
+		100% {
+			opacity: 0;
+			left: 0;
+			bottom: 0;
+			right: 100%;
+			top: 100%;
+		}
+	}
+	
+	.close {
+		position: absolute;
+		top: 54rpx;
+		left: 26rpx;
+		width: 40px;
+		height: 40px;
+	}
+	
+	.top {
+		padding-top: 54rpx;
+	}
+	
+	.top .title {
+		width: 70%;
+		margin: 0 auto;
+		line-height: 26px;
+		text-align: center;
+		font-size: 18px;
+		color: #fff;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	
+	.top .subtitle {
+		line-height: 20px;
+		text-align: center;
+		font-size: 14px;
+		color: #fff;
+	}
+	
+	
+	.normal-player .background {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		opacity: .6;
+		filter: blur(20px);
+	}
+	
+	.normal-player .background img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.normal-player .middle {
+		position: fixed;
+		width: 100%;
+		top: 160rpx;
+		bottom: 280rpx;
+		white-space: nowrap;
+	}
+	
+	.normal-player .middle .mid-circle {
+		width: 100%;
+		height: 100%;
+		text-align: center;
+	}
+	
+	.normal-player .middle .mid-circle .container {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.detail-paly {
+		width: 80%;
+		height: 600rpx;
 		background: url(../../static/disc.png);
 		background-size: cover;
-		margin: 214rpx auto 0 auto;
 		position: relative;
+		top: 140rpx;
+		left: 10%;
 	}
 	.detail-paly image{
 		width: 370rpx;
@@ -275,21 +588,28 @@
 		margin: auto;
 	}
 	.detail-paly view{
-		width: 250rpx;
-		height: 360rpx;
+		width: 185rpx;
+		height: 259rpx;
 		background: url(../../static/needle.png);
 		position: absolute;
-		left: 108rpx;
-		top: -200rpx;
+		left: 118rpx;
+		top: -122rpx;
 		right: 0;
 		margin: auto;
 		background-size: cover;
+		transform-origin: 40rpx top;
+		transition: transform 0.4s;
 	}
 	
-	.detail-lyric{
+	.detail-paly view.pause {
+		transform: rotate(-30deg);
+	}
+	
+	.detail-lyric {
+		margin-top: 138rpx;
 		font-size: 32rpx;
 		line-height: 82rpx;
-		height: 246rpx;
+		height: 164rpx;
 		text-align: center;
 		overflow: hidden;
 		color: #6f6e73;
@@ -303,4 +623,204 @@
 	.detail-lyric-item.active{
 		color: white;
 	}
+	
+	.normal-player .middle .mid-lyric {
+		width: 80%;
+		height: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		text-align: center;
+	}
+	
+	.normal-player .middle .mid-lyric .lyric-scroll {
+		height: 100%;
+	}
+	
+	.normal-player .middle .mid-lyric .lyric-scroll .text {
+		line-height: 64rpx;
+		color: rgba(255, 255, 255, 0.5);
+		font-size: 28rpx;
+	}
+	
+	/* bottom */
+	.normal-player .bottom {
+		position: absolute;
+		bottom: 100rpx;
+		width: 100%;
+	}
+	
+	.normal-player .bottom .progress-wrapper {
+		display: flex;
+		width: 86%;
+		margin: 0 auto;
+		padding: 10rpx 0;
+		align-items: center;
+		color: #fff;
+		font-size: 28rpx;
+	}
+	
+	.normal-player .bottom .progress-wrapper .center{
+		flex: 1;
+	}
+	
+	.normal-player .bottom .operators {
+		box-sizing: border-box;
+		padding: 0 80rpx;
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+	.normal-player .bottom .operators .icon {
+		width: 60rpx;
+		text-align: center;
+		font-size: 26px;
+		color: #fff;
+	}
+	
+	.mini-player {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 120rpx;
+		z-index: 99;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.mini-player .song-avatar {
+		width: 40px;
+		height: 40px;
+		margin-left: 20px;
+	}
+	
+	.mini-player .song-avatar img {
+		width: 85rpx;
+		height: 85rpx;
+		border-radius: 50%;
+		animation: 10s linear move infinite;
+		animation-play-state: paused;
+	}
+	
+	.mini-player .song-avatar img.detail-paly-run{
+		animation-play-state: running;
+	}
+	
+	.mini-player .text {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		margin-left: 44rpx;
+		line-height: 40rpx;
+		overflow: hidden;
+	}
+	
+	.mini-player .text .name {
+		margin-bottom: 2px;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		font-size: 28rpx;
+		color: #fff;
+		font-weight: bold;
+	}
+	
+	.mini-player .text .songer {
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		font-size: 24rpx;
+		color: #fff;
+	}
+	
+	.mini-player .control {
+		width: 30px;
+		font-size: 50rpx;
+		padding: 0 20rpx 0 10rpx;
+		color: #fff;
+	}
+	
+	.list-wrapper {
+		box-sizing: border-box;
+		width: 94%;
+		margin: 0 auto;
+		padding: 30rpx;
+		margin-bottom: 20rpx;
+		border-radius: 36rpx;
+		height: 756rpx;
+		background-color: #f5f5f5;
+		overflow: hidden;
+	}
+	
+	.list-wrapper .list-header {
+		padding: 0 0 40rpx;
+	}
+	
+	
+	.list-wrapper .list-header h1 {
+		font-size: 34rpx;
+		font-weight: bold;
+	}
+	
+	.list-wrapper .item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 80rpx;
+		
+	}
+	
+	.list-wrapper .item.current {
+		color: #0a9cfe;
+	}
+	
+	.list-wrapper .item .play {
+		width: 45rpx;
+	}
+	
+	.list-wrapper .item.current .text {
+		font-size: 30rpx;
+		color: #0a9cfe;
+	}
+	
+	.list-wrapper .item .text {
+		display: flex;
+		align-items: center;
+		font-size: 32rpx;
+		flex: 1;
+		color: #050505;
+	}
+	
+	.list-wrapper .item .text .name {
+		display: inline-block;
+		max-width: 300rpx;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	
+	.list-wrapper .item .text .songer {
+		font-size: 26rpx;
+		margin-left: 10rpx;
+		color: #515a6e;
+	}
+	
+	.list-wrapper .item.current .text .songer {
+		color: #0a9cfe;
+	}
+	
+	.list-wrapper .item .love {
+		width: 40rpx;
+		margin-right: 30rpx;
+	}
+	
+	.list-wrapper .item .delete {
+		width: 40rpx;
+	}
+	
+	
+	
 </style>

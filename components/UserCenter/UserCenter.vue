@@ -28,7 +28,7 @@
 								<view class="num">{{`${index > 10 ? '' : '0'}${index+1}`}}</view>
 								<view class="info">
 									<h2 class="name">{{item.name}}</h2>
-									<p class="desc">{{item.singer}}</p>
+									<p class="desc">{{item.singer||item.songer}}</p>
 								</view>
 							</view>
 						</li>

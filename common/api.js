@@ -4,7 +4,7 @@ export function topList() { // 排行榜
 	let listIds = ['3','0','2','1']
 	return new Promise(function(reslove,reject){
 		uni.request({
-			url:`http://localhost:3000/toplist/detail`,
+			url:`http://www.skfd.xyz:3000/toplist/detail`,
 			method:'GET',
 			data:{},
 			success:res=>{
@@ -33,7 +33,7 @@ export function singerList(type) { // 歌手列表
 // /search/hot/detail   可获取热门搜索列表
 export function searchHot(){
 	return uni.request({
-		url: `http://localhost:3000/search/hot/detail`,
+		url: `http://www.skfd.xyz:3000/search/hot/detail`,
 		method: 'GET',
 	});
 }
@@ -67,9 +67,9 @@ export async function list(id) { // 列表
 	console.log('res1', res1)
 	if(res1[1].data.result.length == 0) {
 		
-		console.log('url', `http://localhost:3000/playlist/detail?id=${id}`)
+		console.log('url', `http://www.skfd.xyz:3000/playlist/detail?id=${id}`)
 		const res2 = await uni.request({
-			url: `http://localhost:3000/playlist/detail?id=${id}`,
+			url: `http://www.skfd.xyz:3000/playlist/detail?id=${id}`,
 			method: 'GET',
 		})
 		console.log('res2', res2)
@@ -85,9 +85,9 @@ export async function songDetail(songId) { // 歌曲详情
 	})
 	// console.log('res1', res1[1].statusCode)
 	if(res1[1].statusCode != 200) {
-		// console.log('url', `http://localhost:3000/song/detail?ids=${songId}`)
+		// console.log('url', `http://www.skfd.xyz:3000/song/detail?ids=${songId}`)
 		const res2 = await uni.request({
-			url: `http://localhost:3000/song/detail?ids=${songId}`,
+			url: `http://www.skfd.xyz:3000/song/detail?ids=${songId}`,
 			method: 'GET',
 		})
 		// console.log('res2', res2)
@@ -105,14 +105,14 @@ export function songsOfsinger(name) { // 列表
 
 export function songLyric(songId) { // 歌词
 	return uni.request({
-		url: `http://localhost:3000/lyric?id=${songId}`,
+		url: `http://www.skfd.xyz:3000/lyric?id=${songId}`,
 		method: 'GET',
 	})
 }
 // /song/url?id=33894312 歌曲链接
 export function songUrl(songId) { // 歌曲url
 	return uni.request({
-		url: `http://localhost:3000/song/url?id=${songId}`,
+		url: `http://www.skfd.xyz:3000/song/url?id=${songId}`,
 		method: 'GET',
 	})
 }

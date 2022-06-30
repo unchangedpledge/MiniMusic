@@ -1,0 +1,39 @@
+
+.index-list {
+	margin: 40rpx 30rpx;
+}
+.index-list-item{
+	display: flex;
+	margin-bottom: 34rpx;
+}
+.index-list-img{
+	width: 212rpx;
+	height: 212rpx;
+	position: relative;
+	border-radius: 30rpx;
+	overflow: hidden;
+	margin-right: 22rpx;
+}
+.index-list-img image{
+	width: 100%;
+	height: 100%;
+}
+.index-list-img text{
+	position: absolute;
+	left: 12rpx;
+	bottom: 16rpx;
+	color: white;
+	font-size: 20rpx;
+}
+.index-list-text{
+	font-size: 24rpx;
+	line-height: 66rpx;
+}
+.index-list-text view {
+	max-width: 360rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+

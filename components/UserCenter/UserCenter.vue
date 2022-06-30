@@ -53,31 +53,31 @@
 		data() {
 			return {
 				activeNum: 1,
-				list: [{
-					name: '一场游戏一场梦',
-					desc: '林宝馨 - 一场游戏一场梦'
-				},{
-					name: '一场游戏一场梦',
-					desc: '林宝馨 - 一场游戏一场梦'
-				},{
-					name: '一场游戏一场梦',
-					desc: '林宝馨 - 一场游戏一场梦'
-				}]
+				// list: [{
+				// 	name: '一场游戏一场梦',
+				// 	desc: '林宝馨 - 一场游戏一场梦'
+				// },{
+				// 	name: '一场游戏一场梦',
+				// 	desc: '林宝馨 - 一场游戏一场梦'
+				// },{
+				// 	name: '一场游戏一场梦',
+				// 	desc: '林宝馨 - 一场游戏一场梦'
+				// }]
 			}
 		},
 		props: ['active'],
 		computed: {
 			...mapState(['theme']),
-			// list() {
-			// 	return uni.getStorageSync(this.activeNum == 1 ? 'loveList' : 'latestList')
-			// }
+			list() {
+				return uni.getStorageSync(this.activeNum == 1 ? 'loveList' : 'latestList')
+			}
 		},
 		mounted() {
 			console.log(this.active)
 			this.activeNum = this.active
 		},
 		methods: {
-			// ...mapMutations(['updatePlaylist', 'setCurIndex']),
+			...mapMutations(['updatePlaylist', 'setCurIndex']),
 			goBack() {
 				// console.log('back', this.$parent.back())
 				this.$emit('back')
@@ -89,8 +89,8 @@
 			},
 			handleToDetail(index) {
 				console.log('点击', index, this.list)
-				// this.updatePlaylist(this.list)
-				// this.setCurIndex(index)
+				this.updatePlaylist(this.list)
+				this.setCurIndex(index)
 			}
 		}
 	}

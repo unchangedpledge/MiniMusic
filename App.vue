@@ -95,5 +95,16 @@
 		color: #d6a2e8;
 	}
 
+	// 播放页
+	.mini-player.theme1 {
+		background-color: #ff7675;
+	}
+	.mini-player.theme2 {
+		background-color: #00aaff;
+	}
+	.mini-player.theme3 {
+		background-color: #d6a2e8;
+	}
+
 
 </style>

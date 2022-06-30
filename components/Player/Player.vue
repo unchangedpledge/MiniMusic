@@ -136,7 +136,6 @@
 				
 				musicState: false, // true为播放，false为未播放
 				showList: false,
-				
 			}
 		},
 		computed: {
@@ -154,6 +153,7 @@
 		},
 		watch: {
 			playlist(newVal, old) {
+				console.log('playlist变化')
 				if(!this.isDelete) {
 					if(this.showPlayer == false) {
 						this.showPlayer = true

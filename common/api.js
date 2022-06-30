@@ -45,3 +45,53 @@ export function searchWord(word){
 	});
 }
 
+export function playlist() { // 歌单
+	return uni.request({
+		url: `${baseUrl}/playlist`,
+		method: 'GET',
+	})
+}
+
+export function banner() { // 轮播图
+	return uni.request({
+		url: `${baseUrl}/banner`,
+		method: 'GET',
+	})
+}
+
+export async function list(id) { // 列表
+	const res1 = await uni.request({
+		url: `${baseUrl}/playlist/detail?id=${id}`,
+		method: 'GET',
+	})
+	console.log('res1', res1)
+	if(res1[1].statusCode != 200) {
+		// console.log('url', `http://localhost:3000/song/detail?ids=${songId}`)
+		const res2 = await uni.request({
+			url: `http://localhost:3000/playlist/detail?id=${id}`,
+			method: 'GET',
+		})
+		console.log('res2', res2)
+		return res2
+	}
+	return res1
+}
+
+export async function songDetail(songId) { // 歌曲详情
+	const res1 = await uni.request({
+		url: `${baseUrl}/song/detail?songId=${songId}`,
+		method: 'GET',
+	})
+	// console.log('res1', res1[1].statusCode)
+	if(res1[1].statusCode != 200) {
+		// console.log('url', `http://localhost:3000/song/detail?ids=${songId}`)
+		const res2 = await uni.request({
+			url: `http://localhost:3000/song/detail?ids=${songId}`,
+			method: 'GET',
+		})
+		// console.log('res2', res2)
+		return res2
+	}
+	return res1
+}
+

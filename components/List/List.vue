@@ -60,7 +60,7 @@
 		},
 		props: ['showList', 'singerName', 'singerAvatar', 'name', 'coverImgUrl', 'description'],
 		computed: {
-			// ...mapState(['mini'])
+			...mapState(['mini'])
 		},
 		mounted() {
 			// if(this.showList) { // 推荐页面进入

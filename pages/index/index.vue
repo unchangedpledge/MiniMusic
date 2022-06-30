@@ -26,16 +26,16 @@
 				></u-tabs>
 			</div>
 		</div>
-		<view v-if="curTab == 0" class="recommend content">
+		<view v-if="curTab == 0" class="recommend content" :style="(playlist.length && mini) ? 'bottom: 120rpx' : ''">
 			<Recommend/>
 		</view>
-		<view v-if="curTab == 1" class="songers content">
+		<view v-if="curTab == 1" class="songers content" :style="(playlist.length && mini) ? 'bottom: 120rpx' : ''">
 			<Songers/>
 		</view>
-		<view v-if="curTab == 2" class="rank content">
+		<view v-if="curTab == 2" class="rank content" :style="(playlist.length && mini) ? 'bottom: 120rpx' : ''">
 			<Rank/>
 		</view>
-		<view v-if="curTab == 3" class="search content">
+		<view v-if="curTab == 3" class="search content" :style="(playlist.length && mini) ? 'bottom: 120rpx' : ''">
 			<Search/>
 		</view>
 		<view v-if="curTab == 4" ref="user" :class="'user-center content ' + (out ? 'out' : '')" style="top: 40rpx;">
@@ -44,7 +44,8 @@
 		<view v-if="curTab == 5" ref="skin" :class="'change-skin content ' + theme">
 			<ChangeSkin @skinBack="skinBack" />
 		</view>
-
+		
+		<Player/>
 		<u-popup 
 			:show="show" 
 			mode="right" 
@@ -75,15 +76,16 @@
 </template>
 
 <script>
-	import {mapState} from 'vuex'
+	import {mapState, mapMutations} from 'vuex'
 	import Recommend from '@/components/Recommend/Recommend.vue'
 	import Songers from '@/components/Songers/Songers.vue'
 	import Rank from '@/components/Rank/Rank.vue'
 	import Search from '@/components/Search/Search.vue'
+	import Player from '@/components/Player/Player.vue'
+	
 	export default {
 		data() {
 			return {
-				title: 'Hello',
 				headTabs: [{
 					name: '推荐',
 				}, {
@@ -107,28 +109,33 @@
 					icon: 'grid'
 				}],
 				curTab: 0,
-				show: false,
 				come: 0,
 				active: 1,
+				show: false,
 				out: false,
 			}
 		},
 		computed: {
-			...mapState(['theme'])
+			...mapState(['theme', 'mini', 'playlist'])
 		},
-		components: {Recommend, Songers, Rank, Search},
+		components: {Recommend, Songers, Rank, Search, Player},
+		onLoad() {
+		},
 		mounted() {
 			console.log('测试1', this.theme)
 			console.log('测试2', this.theme)
 			
 		},
 		methods: {
+			...mapMutations(['changeTheme']),
 			close() {
 			  this.show = false
 			},
 			handleTabs({index, ...item}) {
 				console.log('点击tab', item, index, this)
 				this.curTab = index
+				// const res = await this.$request('/hiddenTroubles/getInfo')
+				// console.log(res)
 			},
 			handlePersonTab(item) {
 				if(item.name == 'skin') { // 点击换肤
@@ -142,11 +149,6 @@
 					this.show = false
 				}
 			},
-			skinBack() {
-				this.curTab = this.come
-				this.come = 0
-				console.log(this.theme)
-			},
 			back() {
 				this.out = true
 				setTimeout(()=>{
@@ -155,6 +157,12 @@
 					this.out = false
 				}, 100)
 			},
+			skinBack() {
+				this.curTab = this.come
+				this.come = 0
+				console.log(this.theme)
+			},
+			
 		}
 	}
 </script>
@@ -203,6 +211,10 @@
 		background-color: #fff;
 	}
 	
+	.user-center {
+		animation: come .3s;
+	}
+	
 	.change-skin {
 		position: fixed;
 		top: 0;
@@ -210,10 +222,6 @@
 		left: 0;
 		right: 0;
 		z-index: 1000;
-	}
-
-	.user-center {
-		animation: come .3s;
 	}
 	
 	.user-center.out {

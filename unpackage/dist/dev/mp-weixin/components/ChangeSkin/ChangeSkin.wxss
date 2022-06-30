@@ -1,0 +1,64 @@
+
+.back {
+	position: absolute;
+	top: 62rpx;
+	left: 20rpx;
+}
+.choose {
+	position: absolute;
+	bottom: 20rpx;
+	width: 100%;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	color: #fff;
+}
+.skin-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+	width: 100%;
+	top: 140rpx;
+	bottom: 128rpx;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+.skin-content .preview {
+	overflow: hidden;
+	margin: 10rpx auto 0;
+}
+.skin-content .preview image {
+	width: calc(387rpx / 2 * 3);
+	height: calc(600rpx / 2 * 3);
+}
+.skin-content .skin-list {
+	box-sizing: border-box;
+	display: flex;
+	padding: 20rpx 40rpx;
+	width: 100%;
+	justify-content: space-around;
+}
+.skin-content .skin-list .skin-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #424242;
+}
+.skin-content .skin-list .skin-item .icon {
+	width: 80rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	color: #fff;
+	background-color: #fff;
+	font-weight: bold;
+	border-radius: 50%;
+	margin-bottom: 10rpx;
+}
+.skin-content .skin-list .skin-item .text {
+	font-size: 28rpx;
+}
+
+

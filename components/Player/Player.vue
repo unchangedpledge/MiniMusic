@@ -128,6 +128,7 @@
 				iconPlay:'icon-zanting',
 				isPlayRotate: true,
 				isLoading: true,
+				showList: false,
 			}
 		},
 		components:{

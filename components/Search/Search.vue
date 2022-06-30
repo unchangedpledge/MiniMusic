@@ -87,7 +87,7 @@
 		components:{
 		},
 		methods: {
-			// ...mapMutations(['updatePlaylist', 'setCurIndex']),
+			...mapMutations(['updatePlaylist', 'setCurIndex']),
 			handleToword(word){
 				this.searchWord = word
 				this.handleToSearch(word)
@@ -124,8 +124,8 @@
 				this.searchType = 1;
 			},
 			handleToDetail(index){
-				// this.updatePlaylist(this.searchList)
-				// this.setCurIndex(index)
+				this.updatePlaylist(this.searchList)
+				this.setCurIndex(index)
 			}
 			
 		}

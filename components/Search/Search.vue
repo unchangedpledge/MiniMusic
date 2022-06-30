@@ -58,7 +58,7 @@
 
 <script>
 	import {mapMutations} from 'vuex'
-	import {searchHot,searchWord,searchSuggest} from '@/common/api.js'
+	import {searchHot,searchWord} from '@/common/api.js'
 	import '@/common/iconfont.css' //图标引用
 	export default {
 		data() {

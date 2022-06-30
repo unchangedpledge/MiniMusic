@@ -65,8 +65,9 @@ export async function list(id) { // 列表
 		method: 'GET',
 	})
 	console.log('res1', res1)
-	if(res1[1].statusCode != 200) {
-		// console.log('url', `http://localhost:3000/song/detail?ids=${songId}`)
+	if(res1[1].data.result.length == 0) {
+		
+		console.log('url', `http://localhost:3000/playlist/detail?id=${id}`)
 		const res2 = await uni.request({
 			url: `http://localhost:3000/playlist/detail?id=${id}`,
 			method: 'GET',
@@ -98,6 +99,20 @@ export async function songDetail(songId) { // 歌曲详情
 export function songsOfsinger(name) { // 列表
 	return uni.request({
 		url: `${baseUrl}/song/singer?singer=${name}`,
+		method: 'GET',
+	})
+}
+
+export function songLyric(songId) { // 歌词
+	return uni.request({
+		url: `http://localhost:3000/lyric?id=${songId}`,
+		method: 'GET',
+	})
+}
+// /song/url?id=33894312 歌曲链接
+export function songUrl(songId) { // 歌曲url
+	return uni.request({
+		url: `http://localhost:3000/song/url?id=${songId}`,
 		method: 'GET',
 	})
 }

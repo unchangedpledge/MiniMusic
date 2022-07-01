@@ -47,7 +47,7 @@
 		props: ['back'],
 		mounted() {
 			this.tempTheme = this.theme.slice(-1)
-			const t = ['/static/theme1.png', '/static/theme2.png', '/static/theme3.png']
+			const t = ['http://www.skfd.xyz:2089/theme1.png', 'http://www.skfd.xyz:2089/theme2.png', 'http://www.skfd.xyz:2089/theme3.png']
 			this.preivewPic = t[this.theme.slice(-1)-1]
 		},
 		computed: {
@@ -58,7 +58,7 @@
 			changeSkin(num) {
 				this.tempTheme = num
 				console.log(num)
-				const t = ['/static/theme1.png', '/static/theme2.png', '/static/theme3.png']
+				const t = ['http://www.skfd.xyz:2089/theme1.png', 'http://www.skfd.xyz:2089/theme2.png', 'http://www.skfd.xyz:2089/theme3.png']
 				this.preivewPic = t[num-1]
 			},
 			goBack() {

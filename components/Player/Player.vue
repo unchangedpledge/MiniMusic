@@ -548,7 +548,7 @@
 	.detail-paly {
 		width: 80%;
 		height: 600rpx;
-		background: url(../../static/disc.png);
+		background: url('http://www.skfd.xyz:2089/disc.png');
 		background-size: cover;
 		position: relative;
 		top: 140rpx;
@@ -590,7 +590,7 @@
 	.detail-paly view{
 		width: 185rpx;
 		height: 259rpx;
-		background: url(../../static/needle.png);
+		background: url('http://www.skfd.xyz:2089/needle.png');
 		position: absolute;
 		left: 118rpx;
 		top: -122rpx;
